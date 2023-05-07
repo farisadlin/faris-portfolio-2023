@@ -17,10 +17,13 @@ module.exports = {
         'btn-resume': '3px 3px 0 0 #D926AA',
         'logo-resume': '3px 3px 0 0 #D926AA'
       },
+      fontFamily: {
+        'fira-code': ['Fira Code', 'monospace']
+      },
       keyframes: {
         'fade-out': {
           '0%': { opacity: '1' },
-          '100%': { opacity: '0', top: -10, left: '50%' }
+          '100%': { opacity: '0' }
         },
         'left-to-right': {
           '0%': { left: '-25%' },
