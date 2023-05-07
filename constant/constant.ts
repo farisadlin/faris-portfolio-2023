@@ -3,10 +3,22 @@ import { AiOutlineMedium } from 'react-icons/ai';
 import { MdOutlineEmail } from 'react-icons/md';
 
 export const MENUS = [
-  'About',
-  'Experience',
-  'Work',
-  'Contact',
+  {
+    name: 'About',
+    url: '#about'
+  },
+  {
+    name: 'Experience',
+    url: '#experience'
+  },
+  {
+    name: 'Work',
+    url: '#work'
+  },
+  {
+    name: 'Contact',
+    url: '#contact'
+  }
 ]
 
 export const INFO_LINKS = [

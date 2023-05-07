@@ -7,3 +7,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Font Mono';
+  src: url('/fonts/font-mono.ttf') format('truetype');
+  /* Add additional font formats here if needed */
+}

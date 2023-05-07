@@ -4,6 +4,9 @@ import Nav from "../components/Nav";
 import { Transition } from "@headlessui/react";
 import InfoSidebar from "../components/InfoSidebar";
 import Hero from "../components/Hero";
+import MainLayout from "../components/MainLayout";
+import About from "../components/About";
+import Meta from "../components/Meta";
 
 export default function Home() {
   const [animationFinished, setAnimationFinished] = useState(false);
@@ -18,6 +21,7 @@ export default function Home() {
 
   return (
     <>
+      <Meta />
       <IntroAnimation animationFinished={animationFinished} handleAnimationEnd={handleAnimationEnd} />
       <Transition
         show={animationFinished}
@@ -30,7 +34,10 @@ export default function Home() {
       >
         <Nav />
         <InfoSidebar />
-        <Hero />
+        <MainLayout>
+          <Hero />
+          <About />
+        </MainLayout>
       </Transition>
     </>
   )

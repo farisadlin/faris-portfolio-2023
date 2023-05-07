@@ -1,3 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.photo-filter {
+  filter: none;
+  animation-duration: 150;
+}
+
+.photo-filter:hover {
+  filter: invert(29%) sepia(300%) saturate(2600%) hue-rotate(295deg) brightness(200%) contrast(99%);
+}

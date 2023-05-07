@@ -76,8 +76,8 @@ const Drawer = () => {
               <ul>
                 {MENUS.map((menu, index) => [
                   <li className='list-none cursor-pointer hover:text-secondary duration-150 flex flex-col mt-4'>
-                    <a className='text-secondary text-center'>{`0${index + 1}.`}</a>
-                    <a className='text-center'>{menu}</a>
+                    <a className='text-secondary text-center font-mono text-sm'>{`0${index + 1}.`}</a>
+                    <a href={menu.url} className='text-center'>{menu.name}</a>
                   </li>
                 ])}
               </ul>
