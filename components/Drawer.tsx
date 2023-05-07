@@ -57,7 +57,7 @@ const Drawer = () => {
             <div className="w-56 bg-neutral shadow-lg" ref={drawerRef}>
               <div className='flex justify-end'>
               <button
-                className="p-8 text-secondary font-bold text-2xl"
+                className="py-10 px-12 text-secondary font-bold text-2xl"
                 onClick={toggleDrawer}
               >
               <svg

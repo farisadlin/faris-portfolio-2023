@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       animation: {
         'change-text-color': 'change-text-color 2s ease-in-out',
-        'fade-out': 'fade-out 1s ease-in-out',
+        'fade-out': 'fade-out 0.1s ease-in-out',
         'intro-logo-dash': 'intro-logo-dash 2s linear infinite',
         'left-to-right': 'left-to-right 2s ease-in-out',
         'right-to-left': 'right-to-left 2s ease-in-out',

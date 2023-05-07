@@ -6,7 +6,7 @@ import Logo from '../styles/logo.svg'
 
 const Nav = () => {
   return (
-    <section className='sticky font-fira-code'>
+    <section className='fixed top-0 font-fira-code w-full'>
       <div className="navbar bg-base-100 py-7 px-9">
         <div className="flex-1">
           <Image className='cursor-pointer z-20' src={Logo} width={50} height={50} alt='Logo' />
