@@ -2,6 +2,7 @@ import { useState } from "react";
 import IntroAnimation from "../components/IntroAnimation";
 import Nav from "../components/Nav";
 import { Transition } from "@headlessui/react";
+import InfoSidebar from "../components/InfoSidebar";
 
 export default function Home() {
   const [animationFinished, setAnimationFinished] = useState(false);
@@ -27,6 +28,7 @@ export default function Home() {
         leaveTo="opacity-0"
       >
         <Nav />
+        <InfoSidebar />
       </Transition>
     </>
   )
