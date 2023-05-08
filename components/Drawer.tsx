@@ -12,7 +12,6 @@ const Drawer = () => {
 
   const handleOutsideClick = (event: MouseEvent) => {
     if (drawerRef.current && !drawerRef.current.contains(event.target as Node)) {
-      console.log('yes')
       setIsOpen(false);
     }
   };
@@ -77,7 +76,7 @@ const Drawer = () => {
                 {MENUS.map((menu, index) => [
                   <li className='list-none cursor-pointer hover:text-secondary duration-150 flex flex-col mt-4'>
                     <a className='text-secondary text-center font-mono text-sm'>{`0${index + 1}.`}</a>
-                    <a href={menu.url} className='text-center'>{menu.name}</a>
+                    <a onClick={toggleDrawer} href={menu.url} className='text-center'>{menu.name}</a>
                   </li>
                 ])}
               </ul>

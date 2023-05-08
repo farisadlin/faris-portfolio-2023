@@ -53,28 +53,30 @@ export const EXPERIENCES = [
   {
     id: 1,
     jobPosition: "Social Media Marketing",
-    company: "DICKY'S COFFEE",
+    company: "Dicky's Coffee",
     dateRange: "July 2013 - December 2013",
     jobDesc: [
       "Marketed through social media to reach a wider audience and increase visitors to the place.",
       "My achievements: Reached 100% target of customers for consecutive months, kept good relationships with customers, and kept interacting with them using social media.",
     ],
+    url: '',
   },
   {
     id: 2,
     jobPosition: "Social Media Analyst",
-    company: "KAMPUNG CREATIVE",
+    company: "Kamtiv",
     dateRange: "November 2018 - December 2019",
     jobDesc: [
       "Gathered social media data according to the client's social media using 3rd party's applications such as Social Sprout.",
       "Analyzed insight data gave by social media using a software tool such as Microsoft Power BI.",
       "Provided the business client with presentable and easy to understand data. So the client will get benefits. Such as: What type of content they needed to post, what is the best time to post the draft, and Which hashtags that will make the best interaction with customers.",
     ],
+    url: 'https://kamtiv.id/',
   },
   {
     id: 3,
     jobPosition: "IT Associate Consultant",
-    company: "PT. GAMATECHNO INDONESIA",
+    company: "Gamatechno",
     dateRange: "December 2019 - June 2020",
     jobDesc: [
       "Assisted the production team in making the master plan and blueprint such as e-Government Interoperability Framework (e-GIF), SOP ICT, e-Government Masterplan, ICT Masterplan, and Backbone Detail Engineering Design.",
@@ -84,11 +86,12 @@ export const EXPERIENCES = [
       "Supported the marketing team in using tools for Email and Whatsapp Marketing.",
       "Helped the division as online marketing when organizing Gamatechno's Online Sharing Session event.",
     ],
+    url: 'https://www.gamatechno.com/',
   },
   {
     id: 4,
     jobPosition: "Software Engineer",
-    company: "PT. XAPIENS TEKNOLOGI INDONESIA",
+    company: "Xapiens",
     dateRange: "March 2021 - April 2022",
     jobDesc: [
       "Developed XSwift, a massive manage service product for internal and external clients from scratch as a web front-end developer using React.JS",
@@ -99,18 +102,20 @@ export const EXPERIENCES = [
       "Wrote several unit tests using Jest, Enzyme, and React Testing Library to ensure product reliability and robustness",
       "Used GIT as version control with Microsoft Azure for development team collaboration",
     ],
+    url: 'https://xapiens.id/',
   },
   {
     id: 5,
     jobPosition: "Software Engineer",
-    company: "KARGO TECHNOLOGIES (PT. PANTHERA BIRU INDONESIA)",
-    dateRange: "May 2022 - Now",
+    company: "Kargo Tech",
+    dateRange: "May 2022 - Present",
     jobDesc: [
       "Developed and maintained groundbreaking features across multiple repositories, including NFT (Nexus for Transporter), NFS (Nexus for Shipper), TMS-Admin, Brokerage Transporter Management System, and Armada Web (Internal Tools) on the frontend side.",
       "Successfully refactored and revitalized the invoice feature, improving maintainability and adaptability to future changes.",
       "Spearheaded major tasks such as invoice handling, trial feature implementation on NFT, live and history vehicle tracing for transporters, and PBI (Panthera Biru Indonesia) partnership registration, leading to the conversion of non-PBI transporters into PBI partners.",
       "Championed code quality and testing by writing numerous unit tests using Jest and React Testing Library, ensuring reliable, efficient, and bug-free software solutions",
     ],
+    url: 'https://kargo.tech/',
   },
 ];
 

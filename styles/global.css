@@ -10,3 +10,15 @@
 .photo-filter:hover {
   filter: invert(29%) sepia(300%) saturate(2600%) hue-rotate(295deg) brightness(200%) contrast(99%);
 }
+
+.custom-bullet-list {
+  padding-left: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.custom-bullet-list::before {
+  content: "▹";
+  color: #D926AA;
+  position: absolute;
+  left: 0px;
+}
