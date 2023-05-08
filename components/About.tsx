@@ -17,8 +17,8 @@ const About = () => {
           With his experience in developing android apps and web projects using a variety of tools such as React.JS, Next.JS, Node.JS, GraphQL, Gatsby.JS, Strapi.JS, and Wordpress, Faris has proved to be a versatile and highly-skilled programmer. 
           </p>
           <p className='mb-4'> 
-          In his career, Faris has worked in a range of exciting roles, including social media analyst at <a href='https://kamtiv.id' target='_blank' rel='noopener' className='text-secondary hover:underline'>Kamtiv</a> and IT consultant at <a href='https://www.gamatechno.com/' target='_blank' rel='noopener' className='text-secondary hover:underline'>PT Gamatechno</a>. 
-          He's also contributed his expertise as a software engineer at <a href='https://xapiens.id/' target='_blank' rel='noopener' className='text-secondary hover:underline'>Xapiens Teknologi</a> and currently works at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank'>Kargo Technologies</a>. 
+          In his career, Faris has worked in a range of exciting roles, including social media analyst at <a href='https://kamtiv.id' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>Kamtiv</a> and IT consultant at <a href='https://www.gamatechno.com/' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>PT Gamatechno</a>. 
+          He's also contributed his expertise as a software engineer at <a href='https://xapiens.id/' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>Xapiens Teknologi</a> and currently works at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank'>Kargo Technologies</a>. 
           </p>
           <p className='mb-4'> 
           While Faris loves his job at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank'>Kargo Technologies</a>, he's always on the lookout for new challenges and opportunities to learn and grow. 

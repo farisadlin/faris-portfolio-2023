@@ -23,6 +23,9 @@ module.exports = {
         'fira-code': ['Fira Code', 'monospace'],
         'font-mono': ['Font Mono', 'monospace']
       },
+      height: {
+        'half-screen': '50vh'
+      },
       keyframes: {
         'intro-logo-dash': {
           '0%': { 'stroke-dashoffset': 1 },

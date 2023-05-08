@@ -11,6 +11,19 @@
   filter: invert(29%) sepia(300%) saturate(2600%) hue-rotate(295deg) brightness(200%) contrast(99%);
 }
 
+.reverse-photo-filter--nohover {
+  filter: invert(29%) sepia(150%) saturate(2600%) hue-rotate(295deg) brightness(50%) contrast(99%);
+}
+
+.reverse-photo-filter {
+  filter: invert(29%) sepia(150%) saturate(2600%) hue-rotate(295deg) brightness(50%) contrast(99%);
+}
+
+.reverse-photo-filter:hover {
+  filter: none;
+  animation-duration: 150;
+}
+
 .custom-bullet-list {
   padding-left: 2rem;
   margin-bottom: 0.75rem;

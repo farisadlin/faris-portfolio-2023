@@ -10,7 +10,7 @@ const InfoSidebar = () => {
           const Icon = link.icon;
           return (
             <li className='mb-6'>
-              <a href={link.url} target='_blank' rel='noopener'>
+              <a href={link.url} target='_blank' rel='noopener noreferrer'>
                 <Icon size={24} className='hover:text-secondary duration-150 hover:-translate-y-1' />
               </a>
             </li>

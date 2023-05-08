@@ -133,6 +133,75 @@ export const PROJECTS = [
   },
   {
     id: 2,
+    title: "Developer Social Network Website",
+    desc:
+      "Built and deployed a social network with Node.js, Express, React,JS, Redux & MongoDB (MERN) Stack.",
+    tags: [
+      "NODE.JS",
+      "REACT.JS",
+      "MONGODB",
+      "EXPRESS.JS",
+      "HEROKU",
+      "REDUX",
+      "AXIOS",
+    ],
+    urlGithub: "#",
+    urlWebsite: "http://devconnector-farisadlin.herokuapp.com/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088015/Slideshow/Faris%20Porfolio%20Site/6._Dev_Connector_u0vee1.png",
+  },
+  {
+    id: 3,
+    title: "Wedding Website With Next.JS (Edel Faris)",
+    desc:
+      "Built and deployed a Wedding Website with Next.js, Node.js, Express, & MongoDB.",
+    tags: [
+      "NEXT.JS",
+      "VERCEL",
+      "EMOTION",
+      "STYLED-COMPONENT",
+      "NODE.JS",
+      "MONGODB",
+    ],
+    urlGithub: "#",
+    urlWebsite: "https://wedding-edel-faris-new.vercel.app",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940233/farisadlin/edelfaris-thumbnail_fiiazi.png",
+  },
+  {
+    id: 4,
+    title: "Wedding Website With Next.JS (Dode Mirah)",
+    desc:
+      "Built and deployed a Wedding Website with Next.js, Node.js, Express, & MongoDB.",
+    tags: [
+      "NEXT.JS",
+      "VERCEL",
+      "EMOTION",
+      "STYLED-COMPONENT",
+      "NODE.JS",
+      "MONGODB",
+    ],
+    urlGithub: "#",
+    urlWebsite: "https://wedding-dode-mirah.vercel.app",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1646453750/farisadlin/ss_dode_mirah_wedding_aueiyz.png",
+  },
+];
+
+export const ARCHIVES = [
+  {
+    id: 1,
+    title: "Beach Resort",
+    desc:
+      "Made a beach resort hotel web app with ReactJS as a framework with Context API within the library. Fetched data using API built with Contentful.",
+    tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
+    urlGithub: "https://github.com/farisadlin/beachresort-react",
+    urlWebsite: "https://beachresort-farisadlin.netlify.app/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088024/Slideshow/Faris%20Porfolio%20Site/1._Beach_Resort_bplkkj.png",
+  },
+  {
+    id: 2,
     title: "Landing Page",
     desc:
       "Made a landing page for a hosting web site with ReactJS as a framework with React Hooks. Fetched data using API built with Contentful.",

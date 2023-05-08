@@ -8,6 +8,7 @@ import MainLayout from "../components/MainLayout";
 import About from "../components/About";
 import Meta from "../components/Meta";
 import Experiences from "../components/Experiences";
+import Works from "../components/Works";
 
 export default function Home() {
   const [animationFinished, setAnimationFinished] = useState(false);
@@ -39,6 +40,7 @@ export default function Home() {
           <Hero />
           <About />
           <Experiences />
+          <Works />
         </MainLayout>
       </Transition>
     </>
