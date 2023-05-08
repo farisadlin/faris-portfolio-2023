@@ -25,7 +25,7 @@ const About = () => {
           His passion for the IT world drives him to keep pushing himself and his company towards greater success. With his wealth of experience and knowledge, Faris is sure to make a significant impact in the industry for years to come.
           </p>
         </div>
-        <div className='mt-10 xl:mt-0 xl:mx-0 mx-auto relative w-72 h-72 after:block after:absolute after:content after:border-2 after:rounded-md after:border-secondary after:h-full after:w-full after:top-4 after:left-4 after:hover:top-5 after:hover:left-5 after:-z-10 after:duration-150'>
+        <div className='mt-10 xl:mt-0 xl:mx-0 mx-auto relative w-60 h-60 md:w-72 md:h-72 after:block after:absolute after:content after:border-2 after:rounded-md after:border-secondary after:h-full after:w-full after:top-4 after:left-4 after:hover:top-5 after:hover:left-5 after:-z-10 after:duration-150'>
           <Image className='rounded-md photo-filter hover:-translate-y-1 hover:-translate-x-1 duration-150' src={Photo} width={300} height={300} alt='Faris Adlin' />
         </div>
       </div>

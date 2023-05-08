@@ -1,12 +1,12 @@
 import Head from "next/head";
 
 const Meta = ({
-  title,
-  keywords,
-  description,
-  currentURL,
-  siteName,
-  urlImg,
+  title = 'Faris Adlin',
+  keywords = `Faris Adlin's Portfolio website`,
+  description = `Faris Adlin's Portfolios`,
+  currentURL = 'https://farisadlin.vercel.app/',
+  siteName = 'Faris Adlin',
+  urlImg = 'https://res.cloudinary.com/https-farisadlin-com/image/upload/c_scale,h_140,w_256/v1636032762/Slideshow/Faris%20Porfolio%20Site/8._Faris_Adlin_yjsdtx.png',
 }) => {
   return (
     <Head>
@@ -28,15 +28,6 @@ const Meta = ({
       <title>{title}</title>
     </Head>
   );
-};
-
-Meta.defaultProps = {
-  title: "Faris Adlin",
-  keywords: "Faris Adlin's Portfolio website",
-  description: "Faris Adlin's Portfolios",
-  currentURL: "https://farisadlin.vercel.app/",
-  siteName: "Faris Adlin",
-  urlImg: "https://res.cloudinary.com/https-farisadlin-com/image/upload/c_scale,h_140,w_256/v1636032762/Slideshow/Faris%20Porfolio%20Site/8._Faris_Adlin_yjsdtx.png",
 };
 
 export default Meta;
