@@ -16,8 +16,9 @@ const Hero = () => {
       <div className=''>
         <p className='font-fira-code text-secondary mb-5'>Hi, my name is</p>
         <h2 className='text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-zinc-300'>Faris Adlin.</h2>
-        <h2 className='text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-zinc-500'>I build things for the web.</h2>
-        <p className='max-w-xl mt-5'>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank'>Kargo</a>.</p>
+        <h2 className='text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-zinc-500'>I specialize in web development.</h2>
+        <p className='max-w-xl mt-5'>
+        As a specialized software engineer, I excel in creating exceptional digital experiences. Currently, I am dedicated to building accessible and user-centric products at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank'>Kargo</a>.</p>
         <ResumeBtn />
       </div>
     </section>
