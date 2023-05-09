@@ -8,7 +8,7 @@ import { smoothScroll } from '../utils/utils'
 
 const Nav = () => {
   return (
-    <section className='fixed top-0 z-50 font-fira-code w-full'>
+    <section className='fixed top-0 z-50 font-space-mono w-full'>
       <div className="navbar bg-base-100 py-7 px-9">
         <div className="flex-1">
           <a href='/'>

@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Fira Code';
-  src: url('/fonts/fira-code.ttf') format('truetype');
+  font-family: 'Space Mono';
+  src: url('/fonts/space-mono.ttf') format('truetype');
   /* Add additional src lines for other font formats (e.g., woff, woff2) if available */
-  /* src: url('/fonts/fira-code.woff') format('woff'),
-     url('/fonts/fira-code.woff2') format('woff2'); */
+  /* src: url('/fonts/space-mono.woff') format('woff'),
+     url('/fonts/space-mono.woff2') format('woff2'); */
   font-weight: normal;
   font-style: normal;
 }

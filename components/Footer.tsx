@@ -18,7 +18,7 @@ const Footer = () => {
         }
       )}
       </ul>
-      <p className='font-fira-code text-center pb-10'>Designed &amp; Built by Faris Adlin</p>
+      <p className='font-space-mono text-center pb-10'>Designed &amp; Built by Faris Adlin</p>
     </footer>
   )
 }

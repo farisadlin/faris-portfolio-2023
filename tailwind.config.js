@@ -20,7 +20,7 @@ module.exports = {
         'logo-resume': '3px 3px 0 0 #D926AA'
       },
       fontFamily: {
-        'fira-code': ['Fira Code', 'monospace'],
+        'space-mono': ['Space Mono', 'monospace'],
         'font-mono': ['Font Mono', 'monospace']
       },
       height: {

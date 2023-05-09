@@ -27,7 +27,7 @@ const NotableProjects = () => {
                 </header>
                 <p id='projectTitle' className='text-zinc-200 hover:text-secondary mt-6 mb-2 h-12'>{archive.title}</p>
                 <p className='mb-6'>{archive.desc}</p>
-                <footer className='flex flex-wrap flex-row font-fira-code'>
+                <footer className='flex flex-wrap flex-row font-space-mono'>
                     {archive.tags.map(tag => (
                       <li className='mr-2 lowercase text-sm'>{tag}</li>
                     ))}
