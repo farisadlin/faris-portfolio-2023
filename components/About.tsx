@@ -5,7 +5,7 @@ import Photo from '../public/images/faris-photo.jpeg'
 
 const About = () => {
   return (
-    <section className='h-full xl:mx-20 py-28' id='about'>
+    <section className='h-full lg:mx-20 xl:mx-auto py-28 max-w-7xl xl:max-w-4xl' id='about'>
       <HeadingFormat number={1} title='About Me' />
       <div className='grid xl:grid-cols-2 mt-10 gap-x-10 grid-cols-1'>
         <div>

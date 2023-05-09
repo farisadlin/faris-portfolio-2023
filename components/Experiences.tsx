@@ -17,7 +17,7 @@ const Experiences = () => {
     setDataExperiences(experience);
   };
   return (
-    <section className='h-full xl:mx-40 py-28' id='experience'>
+    <section className='h-full lg:mx-40 xl:mx-auto py-28 max-w-7xl xl:max-w-3xl' id='experience'>
       <HeadingFormat number={2} title={`Where I've Worked`} />
     <div className='flex flex-col md:flex-row mt-10'>
       <div className='overflow-x-auto md:overflow-x-visible flex mb-10 flex-row md:flex-col md:mb-0'>
