@@ -6,7 +6,7 @@ const Meta = ({
   description = `Faris Adlin's Portfolios`,
   currentURL = 'https://farisadlin.vercel.app/',
   siteName = 'Faris Adlin',
-  urlImg = 'https://res.cloudinary.com/https-farisadlin-com/image/upload/c_scale,h_140,w_256/v1636032762/Slideshow/Faris%20Porfolio%20Site/8._Faris_Adlin_yjsdtx.png',
+  urlImg = 'https://res.cloudinary.com/https-farisadlin-com/image/upload/v1683620227/Slideshow/Faris%20Porfolio%20Site/new-website_gcgd3b.png',
 }) => {
   return (
     <Head>
