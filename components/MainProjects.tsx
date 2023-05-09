@@ -10,7 +10,7 @@ const MainProjects = () => {
           const isEven = index % 2 === 0;
           return [
             <li className='grid md:gap-10 grid-cols-12 mt-10 mb-24 items-center'>
-              <div className={`${isEven ? 'md:col-start-6 md:col-end-13 md:text-right' : 'md:col-start-1 md:col-end-8 md:text-left'} p-8 col-start-1 col-end-13 row-start-1 z-20`}>
+              <div className={`${isEven ? 'md:col-start-6 md:col-end-13 md:text-right' : 'md:col-start-1 md:col-end-8 md:text-left'} p-8 md:p-0 col-start-1 col-end-13 row-start-1 z-20`}>
                   <p className='md:text-secondary font-fira-code'>Featured Project</p>
                   <a href={project.urlWebsite} target='_blank' rel='noopener noreferrer' className='text-zinc-200 text-2xl md:hover:text-secondary cursor-pointer duration-150'>{project.title}</a>
                   <div className='md:bg-zinc-800 md:p-6 mt-5 rounded'>

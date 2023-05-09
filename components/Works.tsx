@@ -5,8 +5,8 @@ import NotableProjects from './NotableProjects'
 
 const Works = () => {
   return (
-    <section className='h-screen py-28' id='work'>
-      <HeadingFormat number={3} title={`Some things I've Built`} />
+    <section className='h-full py-28' id='work'>
+      <HeadingFormat number={3} title={`Some things I've Built`}/>
       <MainProjects />
       <NotableProjects />
     </section>

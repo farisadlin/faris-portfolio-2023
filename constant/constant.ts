@@ -191,17 +191,6 @@ export const PROJECTS = [
 export const ARCHIVES = [
   {
     id: 1,
-    title: "Beach Resort",
-    desc:
-      "Made a beach resort hotel web app with ReactJS as a framework with Context API within the library. Fetched data using API built with Contentful.",
-    tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
-    urlGithub: "https://github.com/farisadlin/beachresort-react",
-    urlWebsite: "https://beachresort-farisadlin.netlify.app/",
-    urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088024/Slideshow/Faris%20Porfolio%20Site/1._Beach_Resort_bplkkj.png",
-  },
-  {
-    id: 2,
     title: "Landing Page",
     desc:
       "Made a landing page for a hosting web site with ReactJS as a framework with React Hooks. Fetched data using API built with Contentful.",
@@ -212,7 +201,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/c_scale,q_100,w_1000/v1635088059/Slideshow/Faris%20Porfolio%20Site/2._Hosting_Kite_mwr6nv.png",
   },
   {
-    id: 3,
+    id: 2,
     title: "Burger Web App",
     desc:
       "Made a burger web app using ReactJS as a framework with many libraries, including React Hooks, React Redux, React Router, and Axios.",
@@ -223,7 +212,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088012/Slideshow/Faris%20Porfolio%20Site/3._Burger_App_xtjp87.png",
   },
   {
-    id: 4,
+    id: 3,
     title: "Company Profile",
     desc:
       "Made a company profile website using ReactJS as a framework with React Hooks and React Router.",
@@ -234,7 +223,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088013/Slideshow/Faris%20Porfolio%20Site/4._Company_Profile_yhuyid.png",
   },
   {
-    id: 5,
+    id: 4,
     title: "Personal Website With Gatsby.JS",
     desc:
       "Made a personal portfolio website using GatsbyJS, GraphQL, Node.JS and Strapi.JS as a framework.",
@@ -245,26 +234,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088028/Slideshow/Faris%20Porfolio%20Site/5._Faris_Adlin_xgjwtr.png",
   },
   {
-    id: 6,
-    title: "Developer Social Network Website",
-    desc:
-      "Built and deployed a social network with Node.js, Express, React,JS, Redux & MongoDB (MERN) Stack.",
-    tags: [
-      "NODE.JS",
-      "REACT.JS",
-      "MONGODB",
-      "EXPRESS.JS",
-      "HEROKU",
-      "REDUX",
-      "AXIOS",
-    ],
-    urlGithub: "#",
-    urlWebsite: "http://devconnector-farisadlin.herokuapp.com/",
-    urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088015/Slideshow/Faris%20Porfolio%20Site/6._Dev_Connector_u0vee1.png",
-  },
-  {
-    id: 7,
+    id: 5,
     title: "Task Management App",
     desc:
       "Built and deployed a task management app with React.JS and Redux. API built with Node.JS, Postgres and Apollo GraphQL.",
@@ -286,7 +256,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088024/Slideshow/Faris%20Porfolio%20Site/7._T-Manage_ifunc4.png",
   },
   {
-    id: 8,
+    id: 6,
     title: "Personal Website With Next.JS",
     desc:
       "Built and deployed a personal website with Next.JS and only with SASS (No CSS Framework).",
@@ -297,7 +267,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088037/Slideshow/Faris%20Porfolio%20Site/8._Faris_Adlin_np76gh.png",
   },
   {
-    id: 9,
+    id: 7,
     title: "Wedding Website With Next.JS (Riska Intan)",
     desc:
       "Built and deployed a wedding website with Next.JS and Emotion.JS for CSS (styled-component)",
@@ -308,7 +278,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088054/Slideshow/Faris%20Porfolio%20Site/9._Riska_Intan_fslqdy.png",
   },
   {
-    id: 10,
+    id: 8,
     title: "Wedding Website With Next.JS (Rico Peni)",
     desc:
       "Same like the previous description but it also has message with custom API using Node.JS and MongoDB.",
@@ -326,43 +296,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940528/farisadlin/ricopeni-thumbnail_sd82xn.png",
   },
   {
-    id: 11,
-    title: "Wedding Website With Next.JS (Edel Faris)",
-    desc:
-      "Same like the previous description but it also has message with custom API using Node.JS and MongoDB.",
-    tags: [
-      "NEXT.JS",
-      "VERCEL",
-      "EMOTION",
-      "STYLED-COMPONENT",
-      "NODE.JS",
-      "MONGODB",
-    ],
-    urlGithub: "#",
-    urlWebsite: "https://wedding-edel-faris-new.vercel.app",
-    urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940233/farisadlin/edelfaris-thumbnail_fiiazi.png",
-  },
-  {
-    id: 12,
-    title: "Wedding Website With Next.JS (Dode Mirah)",
-    desc:
-      "Same like the previous description but it also has message with custom API using Node.JS and MongoDB.",
-    tags: [
-      "NEXT.JS",
-      "VERCEL",
-      "EMOTION",
-      "STYLED-COMPONENT",
-      "NODE.JS",
-      "MONGODB",
-    ],
-    urlGithub: "#",
-    urlWebsite: "https://wedding-dode-mirah.vercel.app",
-    urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1646453750/farisadlin/ss_dode_mirah_wedding_aueiyz.png",
-  },
-  {
-    id: 13,
+    id: 9,
     title: "XSWIFT",
     desc:
       "Made a SaaS product for PT. Xapiens Teknologi from scratch using CRA (Create React Apps) as SPA framework based on JavaScript.",
