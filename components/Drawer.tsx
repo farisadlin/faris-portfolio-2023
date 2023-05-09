@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { MENUS } from '../constant/constant';
+import ResumeBtn from './ResumeBtn';
 
 const Drawer = () => {
   const drawerRef = useRef(null);
@@ -81,7 +82,7 @@ const Drawer = () => {
                 ])}
               </ul>
               <div className='flex justify-center mt-14'>
-              <button className="border border-secondary px-4 rounded py-2 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-btn-resume duration-150">Resume</button>
+                <ResumeBtn />
               </div>
             </div>
           </div>

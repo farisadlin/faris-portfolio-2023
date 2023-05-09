@@ -3,6 +3,7 @@ import Drawer from './Drawer'
 import { MENUS } from '../constant/constant'
 import Image from 'next/image'
 import Logo from '../styles/logo.svg'
+import ResumeBtn from './ResumeBtn'
 
 const Nav = () => {
   return (
@@ -19,7 +20,7 @@ const Nav = () => {
                     <a href={menu.url} className='text-center'>{menu.name}</a>
                   </li>
               ])}
-              <button className="border border-secondary px-4 rounded py-2 hover:-translate-y-1 hover:-translate-x-1 hover:shadow-btn-resume duration-150">Resume</button>
+              <ResumeBtn noMargin={true} />
             </ul>
             <Drawer />
         </div>
