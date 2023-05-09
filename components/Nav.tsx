@@ -4,6 +4,7 @@ import { MENUS } from '../constant/constant'
 import Image from 'next/image'
 import Logo from '../styles/logo.svg'
 import ResumeBtn from './ResumeBtn'
+import { smoothScroll } from '../utils/utils'
 
 const Nav = () => {
   return (
@@ -19,7 +20,7 @@ const Nav = () => {
               {MENUS.map((menu, index) => [
                   <li className='self-center mr-10 cursor-pointer hover:text-secondary duration-150'>
                     <a className='text-secondary text-center font-mono text-sm'>{`0${index + 1}. `}</a>
-                    <a href={menu.url} className='text-center'>{menu.name}</a>
+                    <a href={menu.url} onClick={smoothScroll} className='text-center'>{menu.name}</a>
                   </li>
               ])}
               <ResumeBtn noMargin={true} />

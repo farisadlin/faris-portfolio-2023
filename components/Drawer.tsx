@@ -2,13 +2,15 @@ import { useEffect, useRef, useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { MENUS } from '../constant/constant';
 import ResumeBtn from './ResumeBtn';
+import { smoothScroll } from '../utils/utils';
 
 const Drawer = () => {
   const drawerRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleDrawer = () => {
+  const toggleDrawer = (event) => {
     setIsOpen(!isOpen);
+    smoothScroll(event);
   };
 
   const handleOutsideClick = (event: MouseEvent) => {
