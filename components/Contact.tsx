@@ -12,7 +12,7 @@ const Contact = () => {
       </p>
       <div className='flex justify-center'>
         <a href='mailto:farisnura@gmail.com' target='_blank' rel='noopener noreferrer'>
-          <ResumeBtn text='Say Hi!' />
+          <ResumeBtn text='Say Hi!' urlDownload='mailto:farisnura@gmail.com' hasResume={false} />
         </a>
       </div>
     </section>
