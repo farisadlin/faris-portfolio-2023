@@ -10,6 +10,7 @@ import Meta from "../components/Meta";
 import Experiences from "../components/Experiences";
 import Works from "../components/Works";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [animationFinished, setAnimationFinished] = useState(false);
@@ -43,6 +44,7 @@ export default function Home() {
           <Experiences />
           <Works />
           <Contact />
+          <Footer />
         </MainLayout>
       </Transition>
     </>

@@ -6,7 +6,7 @@ import { FiFolder } from 'react-icons/fi'
 
 const NotableProjects = () => {
   return (
-    <section className='flex flex-col py-28'>
+    <section className='flex flex-col pt-28 pb-36'>
       <h3 className='text-zinc-300 ml-3 text-2xl md:text-3xl text-center'>Other Noteworthy Projects</h3>
       <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
           {ARCHIVES.map(archive => (

@@ -3,7 +3,7 @@ import HeadingFormat from './HeadingFormat'
 
 const Contact = () => {
   return (
-    <section className='h-screen' id='work'>
+    <section className='h-screen md:h-half-screen' id='work'>
       <HeadingFormat number={4} title={`What's Next?`} disableLine={true} />
       <p className='text-center text-6xl my-2 text-zinc-200'>Get In Touch</p>
       <p className='text-center md:w-2/3 lg:w-1/2 mx-auto'>
