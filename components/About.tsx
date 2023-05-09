@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { type ReactNode } from 'react'
 import HeadingFormat from './HeadingFormat'
 import Image from 'next/image'
 import Photo from '../public/images/faris-photo.jpeg'
@@ -10,18 +10,18 @@ const About = () => {
       <div className='grid xl:grid-cols-2 mt-10 gap-x-10 grid-cols-1'>
         <div>
           <p className='mb-4'>
-          Faris has always been passionate about the IT world, and his love for programming led him to pursue a career as a software engineer. 
-          What's impressive about Faris is that he's a self-taught programmer who has honed his skills through hard work and determination.  
+          Faris has always been passionate about the IT world, and his love for programming led him to pursue a career as a software engineer.
+          What&apos;s impressive about Faris is that he&apos;s a self-taught programmer who has honed his skills through hard work and determination.
           </p>
           <p className='mb-4'>
-          With his experience in developing android apps and web projects using a variety of tools such as React.JS, Next.JS, Node.JS, GraphQL, Gatsby.JS, Strapi.JS, and Wordpress, Faris has proved to be a versatile and highly-skilled programmer. 
+          With his experience in developing android apps and web projects using a variety of tools such as React.JS, Next.JS, Node.JS, GraphQL, Gatsby.JS, Strapi.JS, and Wordpress, Faris has proved to be a versatile and highly-skilled programmer.
           </p>
-          <p className='mb-4'> 
-          In his career, Faris has worked in a range of exciting roles, including social media analyst at <a href='https://kamtiv.id' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>Kamtiv</a> and IT consultant at <a href='https://www.gamatechno.com/' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>PT Gamatechno</a>. 
-          He's also contributed his expertise as a software engineer at <a href='https://xapiens.id/' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>Xapiens Teknologi</a> and currently works at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank'>Kargo Technologies</a>. 
+          <p className='mb-4'>
+          In his career, Faris has worked in a range of exciting roles, including social media analyst at <a href='https://kamtiv.id' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>Kamtiv</a> and IT consultant at <a href='https://www.gamatechno.com/' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>PT Gamatechno</a>.
+          He&apos;s also contributed his expertise as a software engineer at <a href='https://xapiens.id/' target='_blank' rel='noopener noreferrer' className='text-secondary hover:underline'>Xapiens Teknologi</a> and currently works at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank' rel="noreferrer">Kargo Technologies</a>.
           </p>
-          <p className='mb-4'> 
-          While Faris loves his job at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank'>Kargo Technologies</a>, he's always on the lookout for new challenges and opportunities to learn and grow. 
+          <p className='mb-4'>
+          While Faris loves his job at <a className='text-secondary hover:underline' href='https://kargo.tech/' target='_blank' rel="noreferrer">Kargo Technologies</a>, he&apos;s always on the lookout for new challenges and opportunities to learn and grow.
           His passion for the IT world drives him to keep pushing himself and his company towards greater success. With his wealth of experience and knowledge, Faris is sure to make a significant impact in the industry for years to come.
           </p>
         </div>
