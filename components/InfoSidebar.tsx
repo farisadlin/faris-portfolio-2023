@@ -3,7 +3,7 @@ import { INFO_LINKS } from '../constant/constant'
 
 const InfoSidebar = () => {
   return (
-    <section className='hidden w-6 fixed bottom-80 left-12 md:block lg:block'>
+    <section className='hidden w-6 fixed bottom-0 left-12 md:block lg:block'>
       <ul className='flex flex-col after:content after:block after:w-0.5 after:h-24 after:mx-auto after:bg-white'>
       {INFO_LINKS.map(link => 
         {
