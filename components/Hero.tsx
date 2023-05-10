@@ -4,7 +4,7 @@ import CubeAnimation from './CubeAnimation'
 
 const Hero = () => {
   return (
-    <section className='h-screen flex flex-col justify-center pt-20 lg:mx-20 xl:mx-auto py-28 max-w-7xl xl:max-w-7xl'>
+    <section className='h-screen flex flex-col justify-center pt-44 lg:mx-20 xl:mx-auto py-28 max-w-7xl xl:max-w-7xl'>
       <div className='z-10 relative'>
         <div className='absolute left-0 sm:left-1/2 lg:left-3/4 h-full -z-10'>
           <CubeAnimation />
