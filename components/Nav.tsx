@@ -16,7 +16,7 @@ const Nav = () => {
           </a>
         </div>
         <div className="flex-none">
-            <ul className="hidden lg:flex menu-horizontal px-1">
+            <ul className="hidden lg:flex justify-center menu-horizontal px-1">
               {MENUS.map((menu, index) => [
                   <li className='self-center mr-10 cursor-pointer hover:text-secondary duration-150'>
                     <a className='text-secondary text-center font-mono text-sm'>{`0${index + 1}. `}</a>
