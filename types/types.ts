@@ -1,4 +1,4 @@
-export interface Experience {
+export interface ExperienceProps {
   id: number;
   jobPosition: string;
   company: string;
@@ -11,4 +11,8 @@ export interface HeadingFormatProps {
   title: string,
   number: number,
   disableLine?: boolean,
+}
+
+export interface ExperienceItemProps {
+  experience: ExperienceProps;
 }

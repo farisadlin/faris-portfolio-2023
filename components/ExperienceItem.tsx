@@ -1,8 +1,4 @@
-import { Experience } from "../types/types";
-
-interface ExperienceItemProps {
-  experience: Experience;
-}
+import { ExperienceItemProps } from "../types/types";
 
 const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
     const { jobPosition, company, dateRange, jobDesc, url } = experience;
