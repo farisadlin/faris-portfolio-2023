@@ -1,10 +1,5 @@
 import React from 'react'
-
-interface HeadingFormatProps {
-  title: string,
-  number: number,
-  disableLine?: boolean,
-}
+import { HeadingFormatProps } from '../types/types'
 
 const HeadingFormat = ({number, title, disableLine = false}: HeadingFormatProps) => {
   return (
