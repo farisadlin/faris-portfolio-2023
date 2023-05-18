@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { MENUS } from '../constant/constant';
 import ResumeBtn from './ResumeBtn';
-import { smoothScroll } from '../utils/utils';
+import smoothScroll from '../utils/smoothScroll';
 
 const Drawer = () => {
   const drawerRef = useRef(null);

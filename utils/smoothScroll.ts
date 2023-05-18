@@ -1,4 +1,4 @@
-export function smoothScroll(event) {
+export default function smoothScroll(event) {
   event.preventDefault();
   const targetId = event.target.getAttribute('href');
   const targetElement = document.querySelector(targetId);
@@ -10,5 +10,3 @@ export function smoothScroll(event) {
     });
   }
 }
-
-export default {}
