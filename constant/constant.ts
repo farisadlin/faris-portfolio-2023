@@ -188,9 +188,16 @@ export const PROJECTS = [
   },
 ];
 
+export const ARCHIVE_CATEGORIES = [
+  'REACT.JS',
+  'GATSBY.JS',
+  'NEXT.JS'
+]
+
 export const ARCHIVES = [
   {
     id: 1,
+    category: 'REACT.JS',
     title: "Landing Page",
     desc:
       "Made a landing page for a hosting web site with ReactJS as a framework with React Hooks. Fetched data using API built with Contentful.",
@@ -202,6 +209,7 @@ export const ARCHIVES = [
   },
   {
     id: 2,
+    category: 'REACT.JS',
     title: "Burger Web App",
     desc:
       "Made a burger web app using ReactJS as a framework with many libraries, including React Hooks, React Redux, React Router, and Axios.",
@@ -213,6 +221,7 @@ export const ARCHIVES = [
   },
   {
     id: 3,
+    category: 'REACT.JS',
     title: "Company Profile",
     desc:
       "Made a company profile website using ReactJS as a framework with React Hooks and React Router.",
@@ -224,6 +233,7 @@ export const ARCHIVES = [
   },
   {
     id: 4,
+    category: 'GATSBY.JS',
     title: "Personal Website With Gatsby.JS",
     desc:
       "Made a personal portfolio website using GatsbyJS, GraphQL, Node.JS and Strapi.JS as a framework.",
@@ -235,6 +245,7 @@ export const ARCHIVES = [
   },
   {
     id: 5,
+    category: 'REACT.JS',
     title: "Task Management App",
     desc:
       "Built and deployed a task management app with React.JS and Redux. API built with Node.JS, Postgres and Apollo GraphQL.",
@@ -257,6 +268,7 @@ export const ARCHIVES = [
   },
   {
     id: 6,
+    category: 'NEXT.JS',
     title: "Personal Website With Next.JS",
     desc:
       "Built and deployed a personal website with Next.JS and only with SASS (No CSS Framework).",
@@ -268,6 +280,7 @@ export const ARCHIVES = [
   },
   {
     id: 7,
+    category: 'NEXT.JS',
     title: "Wedding Website With Next.JS (Riska Intan)",
     desc:
       "Built and deployed a wedding website with Next.JS and Emotion.JS for CSS (styled-component)",
@@ -279,6 +292,7 @@ export const ARCHIVES = [
   },
   {
     id: 8,
+    category: 'NEXT.JS',
     title: "Wedding Website With Next.JS (Rico Peni)",
     desc:
       "Same like the previous description but it also has message with custom API using Node.JS and MongoDB.",
@@ -297,6 +311,7 @@ export const ARCHIVES = [
   },
   {
     id: 9,
+    category: 'REACT.JS',
     title: "XSWIFT",
     desc:
       "Made a SaaS product for PT. Xapiens Teknologi from scratch using CRA (Create React Apps) as SPA framework based on JavaScript.",
