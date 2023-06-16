@@ -11,7 +11,7 @@ const NotableProjects = () => {
     <section className='flex flex-col pt-28 pb-36'>
       <h3 className='text-zinc-300 text-2xl md:text-3xl text-center'>Other Noteworthy Projects</h3>
       <ul className='flex justify-center mt-5'>
-        {ARCHIVE_CATEGORIES.map(category => <li onClick={() => setArchiveCategory(category)} className={`${filteredArchives.some(archive => archive.category === category) && 'text-secondary underline'} hover:underline cursor-pointer mr-5`}>{category}</li>)}
+        {ARCHIVE_CATEGORIES.map((category, indexCategory) => <li onClick={() => setArchiveCategory(category)} className={`${filteredArchives.some(archive => archive.category === category) && 'text-secondary underline'} hover:underline cursor-pointer ${indexCategory === ARCHIVE_CATEGORIES.length - 1 ? 'mr-0' : 'mr-5'}`}>{category}</li>)}
       </ul>
       <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
           {filteredArchives.map(archive => (
