@@ -190,8 +190,8 @@ export const PROJECTS = [
 
 export const ARCHIVE_CATEGORIES = [
   'REACT.JS',
+  'NEXT.JS',
   'GATSBY.JS',
-  'NEXT.JS'
 ]
 
 export const ARCHIVES = [
