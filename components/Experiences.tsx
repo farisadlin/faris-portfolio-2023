@@ -19,9 +19,9 @@ const Experiences = () => {
       <HeadingFormat number={2} title="My Experiences" />
       <section className="dark:bg-none dark:text-gray-100">
         <div className="container max-w-5xl px-4 py-12 mx-auto">
-          <div className="grid gap-4 mx-4 sm:grid-cols-12">
-            <div className="col-span-12 sm:col-span-3">
-              <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-secondary">
+          <div className="grid grid-cols-6 gap-0 mx-4 xl:grid-cols-12">
+            <div className="col-span-12 xl:col-span-3">
+              <div className="text-center xl:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto xl:before:mx-0 before:dark:bg-secondary">
                 <h3 className="text-3xl font-semibold font-space-mono">Timeline</h3>
                 <span className="text-sm font-bold tracking-wider uppercase dark:text-gray-400">Experiences</span>
               </div>

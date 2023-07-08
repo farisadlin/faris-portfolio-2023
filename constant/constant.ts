@@ -30,7 +30,7 @@ export const INFO_LINKS = [
   {
     name: 'LinkedIn',
     icon: FiLinkedin,
-    url: 'https://www.linkedin.com/in/faris-nur-adlin-649100128/'
+    url: 'https://www.linkedin.com/in/farisadlin/'
   },
   {
     name: 'Medium',
@@ -52,35 +52,24 @@ export const INFO_LINKS = [
 export const EXPERIENCES = [
   {
     id: 1,
-    jobPosition: "Social Media Marketing",
-    company: "Dicky's Coffee",
-    dateRange: "July 2013 - December 2013",
-    jobDesc: [
-      "Marketed through social media to reach a wider audience and increase visitors to the place.",
-      "My achievements: Reached 100% target of customers for consecutive months, kept good relationships with customers, and kept interacting with them using social media.",
-    ],
-    url: '',
-  },
-  {
-    id: 2,
     jobPosition: "Social Media Analyst",
     company: "Kamtiv",
     dateRange: "November 2018 - December 2019",
     jobDesc: [
-      "Gathered social media data according to the client's social media using 3rd party's applications such as Social Sprout.",
-      "Analyzed insight data gave by social media using a software tool such as Microsoft Power BI.",
-      "Provided the business client with presentable and easy to understand data. So the client will get benefits. Such as: What type of content they needed to post, what is the best time to post the draft, and Which hashtags that will make the best interaction with customers.",
+      "Gathered social media data from client's social media accounts using third-party applications like Social Sprout for over three clients.",
+      "Analyzed insight data from social media platforms using software tools such as Microsoft BI within a specified date range of one year.",
+      "Delivered presentable and easily understandable data to each business client (for more than three clients) to provide them with benefits, including: Identifying the type of content they need to post, Determining the optimal time to publish drafts, and recommending hashtags that generate the highest customer interaction.",
     ],
     url: 'https://kamtiv.id/',
   },
   {
-    id: 3,
+    id: 2,
     jobPosition: "IT Associate Consultant",
     company: "Gamatechno",
     dateRange: "December 2019 - June 2020",
     jobDesc: [
-      "Assisted the production team in making the master plan and blueprint such as e-Government Interoperability Framework (e-GIF), SOP ICT, e-Government Masterplan, ICT Masterplan, and Backbone Detail Engineering Design.",
-      "Helped the survey team gather data related to the requirements of the master plan in the Regional Government.",
+      "Assisted the production team in making the master plan and blueprint such as e-Government. Interoperability Framework (e-GIF), SOP ICT. e-Government Masterplan, ICT Masterplan, and Backbone Detail Engineering Design.",
+      "Helped the survey team gather data related to the requirements of the master plan for more than Regional Government.",
       "Held presentations for clients to make the project easily understandable so they can work together much more comfortable with us.",
       "Assisted the marketing team in preparing the Budget Plan or Rencana Anggaran Belanja (RAB) and also the Terms of Reference or Kerangka Acuan Kerja (KAK) for clients.",
       "Supported the marketing team in using tools for Email and Whatsapp Marketing.",
@@ -89,31 +78,33 @@ export const EXPERIENCES = [
     url: 'https://www.gamatechno.com/',
   },
   {
-    id: 4,
+    id: 3,
     jobPosition: "Software Engineer",
     company: "Xapiens",
     dateRange: "March 2021 - April 2022",
     jobDesc: [
-      "Developed XSwift, a massive manage service product for internal and external clients from scratch as a web front-end developer using React.JS",
-      "Consistently achieved sprint goals without any dragging backlog",
-      "Deployed web apps in development, staging, hotfix, and production to Rancher",
-      "Actively participated in sprint review, sprint retrospective, sprint grooming, and sprint planning meetings",
-      "Thoroughly documented code to ensure easy maintenance and understanding by other developers",
-      "Wrote several unit tests using Jest, Enzyme, and React Testing Library to ensure product reliability and robustness",
-      "Used GIT as version control with Microsoft Azure for development team collaboration",
+      "Developed XSwift, a massive managed service product for internal and external clients from scratch as a web front end developer using React and reached users traffic from 0 to more than 300.000 visits in a year.",
+      "Consistently achieved sprint goals without any dragging backlog (0 dragging backlog).",
+      "Trusted for deploying web apps regularly in development, staging, hotfix, and production to Rancher.",
+      "Actively participated in sprint review, sprint retrospective, sprint grooming, and sprint planning meetings.",
+      "Thoroughly documented code to ensure easy maintenance and understanding by other developers.",
+      "Wrote several unit tests using Jest. Enzyme, and React Testing Library to ensure product reliability and robustness and increased unit test coverage from 0% to 80%.",
     ],
     url: 'https://xapiens.id/',
   },
   {
-    id: 5,
+    id: 4,
     jobPosition: "Software Engineer",
     company: "Kargo Tech",
     dateRange: "May 2022 - Present",
     jobDesc: [
-      "Developed and maintained groundbreaking features across multiple repositories, including NFT (Nexus for Transporter), NFS (Nexus for Shipper), TMS-Admin, Brokerage Transporter Management System, and Armada Web (Internal Tools) on the frontend side.",
-      "Successfully refactored and revitalized the invoice feature, improving maintainability and adaptability to future changes.",
-      "Spearheaded major tasks such as invoice handling, trial feature implementation on NFT, live and history vehicle tracing for transporters, and PBI (Panthera Biru Indonesia) partnership registration, leading to the conversion of non-PBI transporters into PBI partners.",
-      "Championed code quality and testing by writing numerous unit tests using Jest and React Testing Library, ensuring reliable, efficient, and bug-free software solutions",
+      "Developed and maintained groundbreaking features across multiple repositories on front end web, including NFT (Nexus for Transporter), NFS (Nexus for Shipper), TMS-Admin, Brokerage Transporter Management System, Webview Transporter, and Armada Web (Internal Tools). Technologies used: HTML, CSS, Javascript, React, GraphQL, Styled-component, Ant Design.",
+      "Developed and maintained for mobile apps on front end mobile including T-App (Transporter App). Technologies used: Kotlin, Material UI, GraphQL, and Android Studio.",
+      "Switched from web developer to mobile developer and developed two different features that are integrated with back end only in one sprint (two weeks) even though not yet familiar with Kotlin.",
+      "Changed the default sound in T-App to a custom one and completed the recording process. Then deployed the custom sound within T-App. All processes are finished in only a week.",
+      "Successfully refactored and revitalized the invoice feature on NFT only in one sprint and increased web performance on invoice feature from 5 seconds to 2 seconds.",
+      "Prominent tasks were spearheaded, encompassing the management of invoices, implementation of trial features on NFT, live and historical vehicle tracing for transporters, and the registration of a partnership with Panthera Biru Indonesia (PBI). Consequently, non-PBI transporters were effectively converted into PBI partners and increased from only 3 transporters to 12 transporters.",
+      "Championed code quality and testing by writing numerous unit tests using Jest and React Testing Library and increased unit test coverage for NFT from 5% to 30%.",
     ],
     url: 'https://kargo.tech/',
   },
@@ -124,7 +115,7 @@ export const PROJECTS = [
     id: 1,
     title: "Beach Resort",
     desc:
-      "Made a beach resort hotel web app with ReactJS as a framework with Context API within the library. Fetched data using API built with Contentful.",
+      "Built a beach resort web with sorting based on pricing, guest count, room types, size, breakfast, and pet-friendly features.",
     tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
     urlGithub: "https://github.com/farisadlin/beachresort-react",
     urlWebsite: "https://beachresort-farisadlin.netlify.app/",
@@ -154,7 +145,7 @@ export const PROJECTS = [
     id: 3,
     title: "Wedding Website With Next.JS (Edel Faris)",
     desc:
-      "Built and deployed a Wedding Website with Next.js, Node.js, Express, & MongoDB.",
+      "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
       "NEXT.JS",
       "VERCEL",
@@ -172,7 +163,7 @@ export const PROJECTS = [
     id: 4,
     title: "Wedding Website With Next.JS (Dode Mirah)",
     desc:
-      "Built and deployed a Wedding Website with Next.js, Node.js, Express, & MongoDB.",
+      "Made a wedding website that used a unique style like a digital book with animation such as flipping pages. It has a congratulations section so guests that are invited can give congratulations.",
     tags: [
       "NEXT.JS",
       "VERCEL",
@@ -200,7 +191,7 @@ export const ARCHIVES = [
     category: 'REACT.JS',
     title: "Landing Page",
     desc:
-      "Made a landing page for a hosting web site with ReactJS as a framework with React Hooks. Fetched data using API built with Contentful.",
+      "Built and deployed a landing page for a hosting website.",
     tags: ["REACT.JS", "FIGMA", "NETLIFY", "SASS"],
     urlGithub: "https://github.com/farisadlin/technical-test-domainesia",
     urlWebsite: "https://hostingkite.netlify.app/",
@@ -248,7 +239,7 @@ export const ARCHIVES = [
     category: 'REACT.JS',
     title: "Task Management App",
     desc:
-      "Built and deployed a task management app with React.JS and Redux. API built with Node.JS, Postgres and Apollo GraphQL.",
+      "Built a management app for both admins and clients to manage inputted tasks.",
     tags: [
       "NODE.JS",
       "REACT.JS",
@@ -283,7 +274,7 @@ export const ARCHIVES = [
     category: 'NEXT.JS',
     title: "Wedding Website With Next.JS (Riska Intan)",
     desc:
-      "Built and deployed a wedding website with Next.JS and Emotion.JS for CSS (styled-component)",
+      "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: ["NEXT.JS", "VERCEL", "EMOTION", "STYLED-COMPONENT"],
     urlGithub: "#",
     urlWebsite: "https://wedding-riska-website.vercel.app",
@@ -295,7 +286,7 @@ export const ARCHIVES = [
     category: 'NEXT.JS',
     title: "Wedding Website With Next.JS (Rico Peni)",
     desc:
-      "Same like the previous description but it also has message with custom API using Node.JS and MongoDB.",
+      "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
       "NEXT.JS",
       "VERCEL",
@@ -308,18 +299,6 @@ export const ARCHIVES = [
     urlWebsite: "https://ricopeni.vercel.app",
     urlImg:
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940528/farisadlin/ricopeni-thumbnail_sd82xn.png",
-  },
-  {
-    id: 9,
-    category: 'REACT.JS',
-    title: "XSWIFT",
-    desc:
-      "Made a SaaS product for PT. Xapiens Teknologi from scratch using CRA (Create React Apps) as SPA framework based on JavaScript.",
-    tags: ["CRA", "SASS", "BOOTSTRAP", "KENDO"],
-    urlGithub: "#",
-    urlWebsite: "https://xswift.xapiens.id/",
-    urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1675951428/farisadlin/xswift-new_zv0a40.png",
   },
 ];
 
