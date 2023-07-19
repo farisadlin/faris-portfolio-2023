@@ -124,22 +124,19 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Developer Social Network Website",
+    title: "Vue Pokemon",
     desc:
-      "Built and deployed a social network with Node.js, Express, React,JS, Redux & MongoDB (MERN) Stack.",
+      "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
     tags: [
-      "NODE.JS",
-      "REACT.JS",
-      "MONGODB",
-      "EXPRESS.JS",
-      "HEROKU",
-      "REDUX",
-      "AXIOS",
+      "VUE.JS",
+      "PINIA",
+      "GRAPHQL",
+      "VERCEL",
     ],
-    urlGithub: "#",
-    urlWebsite: "http://devconnector-farisadlin.herokuapp.com/",
+    urlGithub: "https://github.com/farisadlin/vue-pokemon-page",
+    urlWebsite: "https://vue-pokemon-page.vercel.app",
     urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088015/Slideshow/Faris%20Porfolio%20Site/6._Dev_Connector_u0vee1.png",
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1689786446/vue-pokemon/vue-pokemon-1_inwuyf.png",
   },
   {
     id: 3,
@@ -183,6 +180,7 @@ export const ARCHIVE_CATEGORIES = [
   'REACT.JS',
   'NEXT.JS',
   'GATSBY.JS',
+  'VUE.JS'
 ]
 
 export const ARCHIVES = [
@@ -299,6 +297,22 @@ export const ARCHIVES = [
     urlWebsite: "https://ricopeni.vercel.app",
     urlImg:
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940528/farisadlin/ricopeni-thumbnail_sd82xn.png",
+  },
+  {
+    id: 9,
+    category: 'VUE.JS',
+    title: "Vue Pokemon",
+    desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
+    tags: [
+      "VUE.JS",
+      "PINIA",
+      "GRAPHQL",
+      "VERCEL",
+    ],
+    urlGithub: "https://github.com/farisadlin/vue-pokemon-page",
+    urlWebsite: "https://vue-pokemon-page.vercel.app",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1689786446/vue-pokemon/vue-pokemon-1_inwuyf.png",
   },
 ];
 
