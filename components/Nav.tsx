@@ -12,7 +12,7 @@ const Nav = () => {
       <div className="navbar bg-base-100 py-7 px-9">
         <div className="flex-1">
           <a href='/'>
-          <Image className='cursor-pointer z-20' src={Logo} width={50} height={50} alt='Logo' />
+            <Image className='cursor-pointer z-20' src={Logo} width={50} height={50} alt='Logo' />
           </a>
         </div>
         <div className="flex-none">

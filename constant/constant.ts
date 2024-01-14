@@ -96,7 +96,7 @@ export const EXPERIENCES = [
     id: 4,
     jobPosition: "Software Engineer",
     company: "Kargo Tech",
-    dateRange: "May 2022 - Present",
+    dateRange: "May 2022 - September 2023",
     jobDesc: [
       "Developed and maintained groundbreaking features across multiple repositories on front end web, including NFT (Nexus for Transporter), NFS (Nexus for Shipper), TMS-Admin, Brokerage Transporter Management System, Webview Transporter, and Armada Web (Internal Tools). Technologies used: HTML, CSS, Javascript, React, GraphQL, Styled-component, Ant Design.",
       "Developed and maintained for mobile apps on front end mobile including T-App (Transporter App). Technologies used: Kotlin, Material UI, GraphQL, and Android Studio.",
@@ -107,6 +107,44 @@ export const EXPERIENCES = [
       "Championed code quality and testing by writing numerous unit tests using Jest and React Testing Library and increased unit test coverage for NFT from 5% to 30%.",
     ],
     url: 'https://kargo.tech/',
+  },
+  {
+    id: 5,
+    jobPosition: "Software Engineer",
+    company: "Brick",
+    dateRange: "September 2023 - Present",
+    jobDesc: [
+      `
+      Spearheaded the development and upkeep of pioneering features in various web repositories, including
+the acclaimed Brick Dashboard (Client Side) and Mantul Dashboard (Internal). Key projects like the KPK
+Project, Brick Analytics, and Email Template were enhanced using advanced technologies such as
+HTML, CSS, Javascript, React, REST API, Styled Component, and Material UI Design (Versions 4 and
+5).
+      `,
+      `
+      Implemented JavaScript Obfuscation to randomize the bundle so it cannot be read from the client side.
+      `,
+      `
+      Implemented AES256-GCM encryption for HTTP Requests and Responses across several websites,
+notably the Brick Dashboard (Client Side) and Mantul Dashboard (Internal). This initiative significantly
+bolstered web security from the client side, setting a new standard in data protection.
+      `,
+      `
+      Efficiently led the sunsetting process for various products on the Brick Dashboard, including Payroll and
+BrickFlex (P2P Lending), ensuring a smooth transition and minimal impact on user experience.
+      `,
+      `
+      Introduced and successfully implemented Feature Flag (feature toggle) using Unleash on the Brick
+Dashboard, marking a first in the application's history. This innovation allowed for more flexible and
+controlled feature deployment.
+      `,
+      `
+      Elevated the code quality by writing extensive unit tests using Jest and React Testing Library. Remarkably
+increased the unit test coverage for Experience, Payment, and Boiva modules from 0% to 30%,
+significantly improving the reliability and maintainability of the codebase.
+      `,
+    ],
+    url: 'https://www.onebrick.io/',
   },
 ];
 
