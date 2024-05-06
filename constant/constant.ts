@@ -112,7 +112,7 @@ export const EXPERIENCES = [
     id: 5,
     jobPosition: "Software Engineer",
     company: "Brick",
-    dateRange: "September 2023 - Present",
+    dateRange: "September 2023 - May 2024",
     jobDesc: [
       `
       Handled the creation and maintenance of innovative features in several online repositories, such as the
