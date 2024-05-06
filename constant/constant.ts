@@ -1,53 +1,53 @@
-import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
-import { AiOutlineMedium } from 'react-icons/ai';
-import { MdOutlineEmail } from 'react-icons/md';
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { AiOutlineMedium } from "react-icons/ai";
+import { MdOutlineEmail } from "react-icons/md";
 
 export const MENUS = [
   {
-    name: 'About',
-    url: '#about'
+    name: "About",
+    url: "#about",
   },
   {
-    name: 'Experience',
-    url: '#experience'
+    name: "Experience",
+    url: "#experience",
   },
   {
-    name: 'Work',
-    url: '#work'
+    name: "Work",
+    url: "#work",
   },
   {
-    name: 'Contact',
-    url: '#contact'
-  }
-]
+    name: "Contact",
+    url: "#contact",
+  },
+];
 
 export const INFO_LINKS = [
   {
-    name: 'Github',
+    name: "Github",
     icon: FiGithub,
-    url: 'https://github.com/farisadlin/'
+    url: "https://github.com/farisadlin/",
   },
   {
-    name: 'LinkedIn',
+    name: "LinkedIn",
     icon: FiLinkedin,
-    url: 'https://www.linkedin.com/in/farisadlin/'
+    url: "https://www.linkedin.com/in/farisadlin/",
   },
   {
-    name: 'Medium',
+    name: "Medium",
     icon: AiOutlineMedium,
-    url: 'https://medium.com/@shifair'
+    url: "https://medium.com/@shifair",
   },
   {
-    name: 'Twitter',
+    name: "Twitter",
     icon: FiTwitter,
-    url: 'https://twitter.com/shifairs'
+    url: "https://twitter.com/shifairs",
   },
   {
-    name: 'Email',
+    name: "Email",
     icon: MdOutlineEmail,
-    url: 'mailto:farisnura@gmail.com'
+    url: "mailto:farisnura@gmail.com",
   },
-]
+];
 
 export const EXPERIENCES = [
   {
@@ -60,7 +60,7 @@ export const EXPERIENCES = [
       "Analyzed insight data from social media platforms using software tools such as Microsoft BI within a specified date range of one year.",
       "Delivered presentable and easily understandable data to each business client (for more than three clients) to provide them with benefits, including: Identifying the type of content they need to post, Determining the optimal time to publish drafts, and recommending hashtags that generate the highest customer interaction.",
     ],
-    url: 'https://kamtiv.id/',
+    url: "https://kamtiv.id/",
   },
   {
     id: 2,
@@ -75,7 +75,7 @@ export const EXPERIENCES = [
       "Supported the marketing team in using tools for Email and Whatsapp Marketing.",
       "Helped the division as online marketing when organizing Gamatechno's Online Sharing Session event.",
     ],
-    url: 'https://www.gamatechno.com/',
+    url: "https://www.gamatechno.com/",
   },
   {
     id: 3,
@@ -90,7 +90,7 @@ export const EXPERIENCES = [
       "Thoroughly documented code to ensure easy maintenance and understanding by other developers.",
       "Wrote several unit tests using Jest. Enzyme, and React Testing Library to ensure product reliability and robustness and increased unit test coverage from 0% to 80%.",
     ],
-    url: 'https://xapiens.id/',
+    url: "https://xapiens.id/",
   },
   {
     id: 4,
@@ -106,7 +106,7 @@ export const EXPERIENCES = [
       "Prominent tasks were spearheaded, encompassing the management of invoices, implementation of trial features on NFT, live and historical vehicle tracing for transporters, and the registration of a partnership with Panthera Biru Indonesia (PBI). Consequently, non-PBI transporters were effectively converted into PBI partners and increased from only 3 transporters to 12 transporters.",
       "Championed code quality and testing by writing numerous unit tests using Jest and React Testing Library and increased unit test coverage for NFT from 5% to 30%.",
     ],
-    url: 'https://kargo.tech/',
+    url: "https://kargo.tech/",
   },
   {
     id: 5,
@@ -115,15 +115,15 @@ export const EXPERIENCES = [
     dateRange: "September 2023 - Present",
     jobDesc: [
       `
-      Spearheaded the development and upkeep of pioneering features in various web repositories, including
-the acclaimed Brick Dashboard (Client Side) and Mantul Dashboard (Internal). Key projects like the KPK
-Project, Brick Analytics, and Email Template were enhanced using advanced technologies such as
-HTML, CSS, Javascript, React, REST API, Styled Component, and Material UI Design (Versions 4 and
-5).
+      Handled the creation and maintenance of innovative features in several online repositories, such as the
+well-known Brick Dashboard (Client Side), BOIVA (Client Side), and Mantul Dashboard (Internal User).
+Advanced technologies including HTML, CSS, Javascript, React, REST API, Styled Component, and
+Material UI Design (Versions 4 and 5) were used to improve important projects like the KPK Project, Brick
+Analytics, and Email Template.
       `,
       `
-      Implemented JavaScript Obfuscation to randomize the bundle so it cannot be read from the client side.
-      `,
+      Implemented JavaScript Obfuscation to randomize the bundle so it cannot be read from the client side
+      (improving security from the client side).`,
       `
       Implemented AES256-GCM encryption for HTTP Requests and Responses across several websites,
 notably the Brick Dashboard (Client Side) and Mantul Dashboard (Internal). This initiative significantly
@@ -140,11 +140,11 @@ controlled feature deployment.
       `,
       `
       Elevated the code quality by writing extensive unit tests using Jest and React Testing Library. Remarkably
-increased the unit test coverage for Experience, Payment, and Boiva modules from 0% to 30%,
+increased the unit test coverage for Experience, Payment, and Boiva modules from 0% to 80%,
 significantly improving the reliability and maintainability of the codebase.
       `,
     ],
-    url: 'https://www.onebrick.io/',
+    url: "https://www.onebrick.io/",
   },
 ];
 
@@ -152,8 +152,7 @@ export const PROJECTS = [
   {
     id: 1,
     title: "Beach Resort",
-    desc:
-      "Built a beach resort web with sorting based on pricing, guest count, room types, size, breakfast, and pet-friendly features.",
+    desc: "Built a beach resort web with sorting based on pricing, guest count, room types, size, breakfast, and pet-friendly features.",
     tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
     urlGithub: "https://github.com/farisadlin/beachresort-react",
     urlWebsite: "https://beachresort-farisadlin.netlify.app/",
@@ -163,14 +162,8 @@ export const PROJECTS = [
   {
     id: 2,
     title: "Vue Pokemon",
-    desc:
-      "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
-    tags: [
-      "VUE.JS",
-      "PINIA",
-      "GRAPHQL",
-      "VERCEL",
-    ],
+    desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
+    tags: ["VUE.JS", "PINIA", "GRAPHQL", "VERCEL"],
     urlGithub: "https://github.com/farisadlin/vue-pokemon-page",
     urlWebsite: "https://vue-pokemon-page.vercel.app",
     urlImg:
@@ -179,8 +172,7 @@ export const PROJECTS = [
   {
     id: 3,
     title: "Wedding Website With Next.JS (Edel Faris)",
-    desc:
-      "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
+    desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
       "NEXT.JS",
       "VERCEL",
@@ -197,8 +189,7 @@ export const PROJECTS = [
   {
     id: 4,
     title: "Wedding Website With Next.JS (Dode Mirah)",
-    desc:
-      "Made a wedding website that used a unique style like a digital book with animation such as flipping pages. It has a congratulations section so guests that are invited can give congratulations.",
+    desc: "Made a wedding website that used a unique style like a digital book with animation such as flipping pages. It has a congratulations section so guests that are invited can give congratulations.",
     tags: [
       "NEXT.JS",
       "VERCEL",
@@ -215,19 +206,18 @@ export const PROJECTS = [
 ];
 
 export const ARCHIVE_CATEGORIES = [
-  'REACT.JS',
-  'NEXT.JS',
-  'GATSBY.JS',
-  'VUE.JS'
-]
+  "REACT.JS",
+  "NEXT.JS",
+  "GATSBY.JS",
+  "VUE.JS",
+];
 
 export const ARCHIVES = [
   {
     id: 1,
-    category: 'REACT.JS',
+    category: "REACT.JS",
     title: "Landing Page",
-    desc:
-      "Built and deployed a landing page for a hosting website.",
+    desc: "Built and deployed a landing page for a hosting website.",
     tags: ["REACT.JS", "FIGMA", "NETLIFY", "SASS"],
     urlGithub: "https://github.com/farisadlin/technical-test-domainesia",
     urlWebsite: "https://hostingkite.netlify.app/",
@@ -236,10 +226,9 @@ export const ARCHIVES = [
   },
   {
     id: 2,
-    category: 'REACT.JS',
+    category: "REACT.JS",
     title: "Burger Web App",
-    desc:
-      "Made a burger web app using ReactJS as a framework with many libraries, including React Hooks, React Redux, React Router, and Axios.",
+    desc: "Made a burger web app using ReactJS as a framework with many libraries, including React Hooks, React Redux, React Router, and Axios.",
     tags: ["REACT.JS", "REDUX", "AXIOS", "NETLIFY", "FIREBASE"],
     urlGithub: "https://github.com/farisadlin/burgerapp-reactjs",
     urlWebsite: "https://react-test-app-db03b.firebaseapp.com/",
@@ -248,10 +237,9 @@ export const ARCHIVES = [
   },
   {
     id: 3,
-    category: 'REACT.JS',
+    category: "REACT.JS",
     title: "Company Profile",
-    desc:
-      "Made a company profile website using ReactJS as a framework with React Hooks and React Router.",
+    desc: "Made a company profile website using ReactJS as a framework with React Hooks and React Router.",
     tags: ["REACT.JS", "NETLIFY"],
     urlGithub: "https://github.com/farisadlin/company-profile-reactjs",
     urlWebsite: "https://companyprofile-farisadlin.netlify.app/",
@@ -260,10 +248,9 @@ export const ARCHIVES = [
   },
   {
     id: 4,
-    category: 'GATSBY.JS',
+    category: "GATSBY.JS",
     title: "Personal Website With Gatsby.JS",
-    desc:
-      "Made a personal portfolio website using GatsbyJS, GraphQL, Node.JS and Strapi.JS as a framework.",
+    desc: "Made a personal portfolio website using GatsbyJS, GraphQL, Node.JS and Strapi.JS as a framework.",
     tags: ["GATSBY.JS", "GRAPHQL", "NODE.JS", "STRAPI.JS"],
     urlGithub: "https://github.com/farisadlin/gatsby-strapi-front-end",
     urlWebsite: "http://faris-portofolio.netlify.app/",
@@ -272,10 +259,9 @@ export const ARCHIVES = [
   },
   {
     id: 5,
-    category: 'REACT.JS',
+    category: "REACT.JS",
     title: "Task Management App",
-    desc:
-      "Built a management app for both admins and clients to manage inputted tasks.",
+    desc: "Built a management app for both admins and clients to manage inputted tasks.",
     tags: [
       "NODE.JS",
       "REACT.JS",
@@ -295,10 +281,9 @@ export const ARCHIVES = [
   },
   {
     id: 6,
-    category: 'NEXT.JS',
+    category: "NEXT.JS",
     title: "Personal Website With Next.JS",
-    desc:
-      "Built and deployed a personal website with Next.JS and only with SASS (No CSS Framework).",
+    desc: "Built and deployed a personal website with Next.JS and only with SASS (No CSS Framework).",
     tags: ["NEXT.JS", "VERCEL", "SASS"],
     urlGithub: "#",
     urlWebsite: "https://farisadlin.vercel.app",
@@ -307,10 +292,9 @@ export const ARCHIVES = [
   },
   {
     id: 7,
-    category: 'NEXT.JS',
+    category: "NEXT.JS",
     title: "Wedding Website With Next.JS (Riska Intan)",
-    desc:
-      "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
+    desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: ["NEXT.JS", "VERCEL", "EMOTION", "STYLED-COMPONENT"],
     urlGithub: "#",
     urlWebsite: "https://wedding-riska-website.vercel.app",
@@ -319,10 +303,9 @@ export const ARCHIVES = [
   },
   {
     id: 8,
-    category: 'NEXT.JS',
+    category: "NEXT.JS",
     title: "Wedding Website With Next.JS (Rico Peni)",
-    desc:
-      "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
+    desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
       "NEXT.JS",
       "VERCEL",
@@ -338,15 +321,10 @@ export const ARCHIVES = [
   },
   {
     id: 9,
-    category: 'VUE.JS',
+    category: "VUE.JS",
     title: "Vue Pokemon",
     desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
-    tags: [
-      "VUE.JS",
-      "PINIA",
-      "GRAPHQL",
-      "VERCEL",
-    ],
+    tags: ["VUE.JS", "PINIA", "GRAPHQL", "VERCEL"],
     urlGithub: "https://github.com/farisadlin/vue-pokemon-page",
     urlWebsite: "https://vue-pokemon-page.vercel.app",
     urlImg:
