@@ -54,7 +54,7 @@ export const EXPERIENCES = [
     id: 1,
     jobPosition: "Social Media Analyst",
     company: "Kamtiv",
-    dateRange: "November 2018 - December 2019",
+    dateRange: "11/2018 - 12/2019",
     jobDesc: [
       "Gathered social media data from client's social media accounts using third-party applications like Social Sprout for over three clients.",
       "Analyzed insight data from social media platforms using software tools such as Microsoft BI within a specified date range of one year.",
@@ -66,7 +66,7 @@ export const EXPERIENCES = [
     id: 2,
     jobPosition: "IT Associate Consultant",
     company: "Gamatechno",
-    dateRange: "December 2019 - June 2020",
+    dateRange: "12/2019 - 06/2020",
     jobDesc: [
       "Assisted the production team in making the master plan and blueprint such as e-Government. Interoperability Framework (e-GIF), SOP ICT. e-Government Masterplan, ICT Masterplan, and Backbone Detail Engineering Design.",
       "Helped the survey team gather data related to the requirements of the master plan for more than Regional Government.",
@@ -81,7 +81,7 @@ export const EXPERIENCES = [
     id: 3,
     jobPosition: "Software Engineer",
     company: "Xapiens",
-    dateRange: "March 2021 - April 2022",
+    dateRange: "02/2021 - 04/2022",
     jobDesc: [
       "Developed XSwift, a massive managed service product for internal and external clients from scratch as a web front end developer using React and reached users traffic from 0 to more than 300.000 visits in a year.",
       "Consistently achieved sprint goals without any dragging backlog (0 dragging backlog).",
@@ -96,7 +96,7 @@ export const EXPERIENCES = [
     id: 4,
     jobPosition: "Software Engineer",
     company: "Kargo Tech",
-    dateRange: "May 2022 - September 2023",
+    dateRange: "05/2022 - 09/2023",
     jobDesc: [
       "Developed and maintained groundbreaking features across multiple repositories on front end web, including NFT (Nexus for Transporter), NFS (Nexus for Shipper), TMS-Admin, Brokerage Transporter Management System, Webview Transporter, and Armada Web (Internal Tools). Technologies used: HTML, CSS, Javascript, React, GraphQL, Styled-component, Ant Design.",
       "Developed and maintained for mobile apps on front end mobile including T-App (Transporter App). Technologies used: Kotlin, Material UI, GraphQL, and Android Studio.",
@@ -112,7 +112,7 @@ export const EXPERIENCES = [
     id: 5,
     jobPosition: "Software Engineer",
     company: "Brick",
-    dateRange: "September 2023 - May 2024",
+    dateRange: "09/2023 - 07/2024",
     jobDesc: [
       `
       Handled the creation and maintenance of innovative features in several online repositories, such as the
