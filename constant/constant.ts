@@ -151,6 +151,16 @@ significantly improving the reliability and maintainability of the codebase.
 export const PROJECTS = [
   {
     id: 1,
+    title: "HireFazz Main App",
+    desc: "Fullstack web app for a platform that uses AI to streamline the hiring process by automating repetitive tasks like CV screening and job matching.",
+    tags: ["NEXT.JS", "RADIX UI", "TYPESCRIPT", "NODE-TS", "PRISMA", "MYSQL"],
+    urlGithub: "",
+    urlWebsite: "https://app.hirefazz.com/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvon_njffeo.png",
+  },
+  {
+    id: 2,
     title: "Beach Resort",
     desc: "Built a beach resort web with sorting based on pricing, guest count, room types, size, breakfast, and pet-friendly features.",
     tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
@@ -160,7 +170,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088024/Slideshow/Faris%20Porfolio%20Site/1._Beach_Resort_bplkkj.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Vue Pokemon",
     desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
     tags: ["VUE.JS", "PINIA", "GRAPHQL", "VERCEL"],
@@ -170,7 +180,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1689786446/vue-pokemon/vue-pokemon-1_inwuyf.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Wedding Website With Next.JS (Edel Faris)",
     desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
@@ -187,7 +197,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940233/farisadlin/edelfaris-thumbnail_fiiazi.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Wedding Website With Next.JS (Dode Mirah)",
     desc: "Made a wedding website that used a unique style like a digital book with animation such as flipping pages. It has a congratulations section so guests that are invited can give congratulations.",
     tags: [
@@ -328,7 +338,29 @@ export const ARCHIVES = [
     urlGithub: "https://github.com/farisadlin/vue-pokemon-page",
     urlWebsite: "https://vue-pokemon-page.vercel.app",
     urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1689786446/vue-pokemon/vue-pokemon-1_inwuyf.png",
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvse_we9tia.jpg",
+  },
+  {
+    id: 10,
+    category: "NEXT.JS",
+    title: "HireFazz Landing Page",
+    desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
+    tags: ["NEXT.JS", "RADIX UI", "TYPESCRIPT", "MDX"],
+    urlGithub: "#",
+    urlWebsite: "https://www.hirefazz.com/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940528/farisadlin/ricopeni-thumbnail_sd82xn.png",
+  },
+  {
+    id: 11,
+    category: "NEXT.JS",
+    title: "HireFazz Main App",
+    desc: "Fullstack web app for a platform that uses AI to streamline the hiring process by automating repetitive tasks like CV screening and job matching.",
+    tags: ["NEXT.JS", "RADIX UI", "TYPESCRIPT", "NODE-TS", "PRISMA", "MYSQL"],
+    urlGithub: "#",
+    urlWebsite: "https://app.hirefazz.com/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvon_njffeo.png",
   },
 ];
 
