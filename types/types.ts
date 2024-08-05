@@ -8,9 +8,9 @@ export interface ExperienceProps {
 }
 
 export interface HeadingFormatProps {
-  title: string,
-  number: number,
-  disableLine?: boolean,
+  title: string;
+  number: number;
+  disableLine?: boolean;
 }
 
 export interface ExperienceItemProps {

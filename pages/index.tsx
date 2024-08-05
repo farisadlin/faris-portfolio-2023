@@ -1,32 +1,35 @@
-import React, { type ReactNode, useState } from 'react'
-import IntroAnimation from '../components/IntroAnimation'
-import Nav from '../components/Nav'
-import { Transition } from '@headlessui/react'
-import InfoSidebar from '../components/InfoSidebar'
-import Hero from '../components/Hero'
-import MainLayout from '../components/MainLayout'
-import About from '../components/About'
-import Meta from '../components/Meta'
-import Experiences from '../components/Experiences'
-import Works from '../components/Works'
-import Contact from '../components/Contact'
-import Footer from '../components/Footer'
+import React, { type ReactNode, useState } from "react";
+import IntroAnimation from "../components/IntroAnimation";
+import Nav from "../components/Nav";
+import { Transition } from "@headlessui/react";
+import InfoSidebar from "../components/InfoSidebar";
+import Hero from "../components/Hero";
+import MainLayout from "../components/MainLayout";
+import About from "../components/About";
+import Meta from "../components/Meta";
+import Experiences from "../components/Experiences";
+import Works from "../components/Works";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
-export default function Home (): ReactNode {
-  const [animationFinished, setAnimationFinished] = useState(false)
+export default function Home(): ReactNode {
+  const [animationFinished, setAnimationFinished] = useState(false);
 
   const handleAnimationEnd = (): void => {
-    setAnimationFinished(true)
+    setAnimationFinished(true);
     if (animationFinished) {
-      const introAnimation = document.getElementById('introAnimation')
-      introAnimation.classList.add('hidden')
+      const introAnimation = document.getElementById("introAnimation");
+      introAnimation?.classList.add("hidden");
     }
-  }
+  };
 
   return (
     <>
       <Meta />
-      <IntroAnimation animationFinished={animationFinished} handleAnimationEnd={handleAnimationEnd} />
+      <IntroAnimation
+        animationFinished={animationFinished}
+        handleAnimationEnd={handleAnimationEnd}
+      />
       <Transition
         show={animationFinished}
         enter="transition-opacity duration-500"
@@ -48,5 +51,5 @@ export default function Home (): ReactNode {
         </MainLayout>
       </Transition>
     </>
-  )
+  );
 }
