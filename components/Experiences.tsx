@@ -8,7 +8,8 @@ const Experiences = () => {
   const [experienceCount, setExperienceCount] = useState<number>(1);
   const isDataHasSameLength = experienceCount === EXPERIENCES.length;
 
-  const handleMore = useCallback(() => {
+  const handleMore = useCallback((event: React.MouseEvent<HTMLElement>) => {
+    event.preventDefault();
     setExperienceCount((prevCount) => prevCount + 1);
   }, []);
 

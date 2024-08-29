@@ -79,7 +79,7 @@ export const EXPERIENCES = [
   },
   {
     id: 3,
-    jobPosition: "Software Engineer",
+    jobPosition: "Software Engineer (Front End)",
     company: "Xapiens",
     dateRange: "02/2021 - 04/2022",
     jobDesc: [
@@ -94,7 +94,7 @@ export const EXPERIENCES = [
   },
   {
     id: 4,
-    jobPosition: "Software Engineer",
+    jobPosition: "Software Engineer (Front End)",
     company: "Kargo Tech",
     dateRange: "05/2022 - 09/2023",
     jobDesc: [
@@ -110,7 +110,7 @@ export const EXPERIENCES = [
   },
   {
     id: 5,
-    jobPosition: "Software Engineer",
+    jobPosition: "Software Engineer (Front End)",
     company: "Brick",
     dateRange: "09/2023 - 07/2024",
     jobDesc: [

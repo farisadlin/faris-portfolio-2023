@@ -6,7 +6,7 @@ interface ResumeBtnProps {
   text?: string;
   urlDownload?: string;
   hasResume?: boolean;
-  onClick?: () => void;
+  onClick?: (event: React.MouseEvent<HTMLElement>) => void;
 }
 
 const ResumeBtn = ({
