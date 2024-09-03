@@ -380,7 +380,10 @@ export const ARCHIVES = [
     title: "Todos App",
     desc: "Another todos app. But wait, this is different, because it demonstrates that I’m capable of being a full-stack developer using Javascript all the way! (Next.js and Express.js)",
     tags: ["NEXT.JS", "EXPRESS.JS", "TYPESCRIPT", "MYSQL"],
-    urlGithub: "https://github.com/farisadlin/todos-app-client-side",
+    urlGithub: [
+      "https://github.com/farisadlin/todos-app-client-side",
+      "https://github.com/farisadlin/todos-app-server-side",
+    ],
     urlWebsite: "https://todos-app-client-side.vercel.app/",
     urlImg:
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1725399944/farisadlin/SCR-20240904-ccrq_srss3c.png",

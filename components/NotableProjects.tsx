@@ -42,23 +42,28 @@ const NotableProjects = () => {
                 <a>
                   <FiFolder size={48} className="text-secondary" />
                 </a>
-                <div className="flex self-center">
-                  <a
-                    href={archive.urlGithub}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FiGithub size={24} className="hover:text-secondary" />
-                  </a>
+                <div className="flex self-center gap-2">
+                  {Array.isArray(archive.urlGithub) ? (
+                    archive.urlGithub.map((url) => (
+                      <a href={url} target="_blank" rel="noopener noreferrer">
+                        <FiGithub size={24} className="hover:text-secondary" />
+                      </a>
+                    ))
+                  ) : (
+                    <a
+                      href={archive.urlGithub}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FiGithub size={24} className="hover:text-secondary" />
+                    </a>
+                  )}
                   <a
                     href={archive.urlWebsite}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <TfiNewWindow
-                      size={24}
-                      className="ml-5 hover:text-secondary"
-                    />
+                    <TfiNewWindow size={24} className="hover:text-secondary" />
                   </a>
                 </div>
               </header>
