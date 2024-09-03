@@ -161,6 +161,17 @@ export const PROJECTS = [
   },
   {
     id: 2,
+    category: "FULL-STACK",
+    title: "Todos App",
+    desc: "Another todos app. But wait, this is different, because it demonstrates that I’m capable of being a full-stack developer using Javascript all the way! (Next.js and Express)",
+    tags: ["NEXT.JS", "EXPRESS.JS", "TYPESCRIPT", "MYSQL"],
+    urlGithub: "https://github.com/farisadlin/todos-app-client-side",
+    urlWebsite: "https://todos-app-client-side.vercel.app/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1725399944/farisadlin/SCR-20240904-ccrq_srss3c.png",
+  },
+  {
+    id: 3,
     title: "Beach Resort",
     desc: "Built a beach resort web with sorting based on pricing, guest count, room types, size, breakfast, and pet-friendly features.",
     tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
@@ -170,7 +181,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088024/Slideshow/Faris%20Porfolio%20Site/1._Beach_Resort_bplkkj.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Vue Pokemon",
     desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
     tags: ["VUE.JS", "PINIA", "GRAPHQL", "VERCEL"],
@@ -180,7 +191,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1689786446/vue-pokemon/vue-pokemon-1_inwuyf.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Wedding Website With Next.JS (Edel Faris)",
     desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
@@ -197,7 +208,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940233/farisadlin/edelfaris-thumbnail_fiiazi.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Wedding Website With Next.JS (Dode Mirah)",
     desc: "Made a wedding website that used a unique style like a digital book with animation such as flipping pages. It has a congratulations section so guests that are invited can give congratulations.",
     tags: [
@@ -220,6 +231,7 @@ export const ARCHIVE_CATEGORIES = [
   "NEXT.JS",
   "GATSBY.JS",
   "VUE.JS",
+  "FULL-STACK",
 ];
 
 export const ARCHIVES = [
@@ -361,6 +373,17 @@ export const ARCHIVES = [
     urlWebsite: "https://app.hirefazz.com/",
     urlImg:
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvon_njffeo.png",
+  },
+  {
+    id: 12,
+    category: "FULL-STACK",
+    title: "Todos App",
+    desc: "Another todos app. But wait, this is different, because it demonstrates that I’m capable of being a full-stack developer using Javascript all the way! (Next.js and Express.js)",
+    tags: ["NEXT.JS", "EXPRESS.JS", "TYPESCRIPT", "MYSQL"],
+    urlGithub: "https://github.com/farisadlin/todos-app-client-side",
+    urlWebsite: "https://todos-app-client-side.vercel.app/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1725399944/farisadlin/SCR-20240904-ccrq_srss3c.png",
   },
 ];
 
