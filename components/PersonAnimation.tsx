@@ -353,7 +353,7 @@ function NeonText() {
         anchorX="center"
         anchorY="middle"
       >
-        Rotate With Mouse
+        Rotate by Mouse
       </Text>
       <mesh position={[0, 1.2, -1.01]}>
         <planeGeometry args={[1.5, 0.3]} />{" "}
@@ -372,7 +372,7 @@ function NeonText() {
 
 const PersonAnimation = () => {
   return (
-    <Canvas camera={{ position: [-2, 0.5, 2.5], fov: 60 }}>
+    <Canvas camera={{ position: [-2.2, 0.5, 2.8], fov: 60 }}>
       <ambientLight intensity={0.2} />
       <Person />
       <Computer />
