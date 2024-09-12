@@ -13,6 +13,17 @@ const Experiences = () => {
     setExperienceCount((prevCount) => prevCount + 1);
   }, []);
 
+  const handleLess = useCallback(
+    (event: React.MouseEvent<HTMLElement>) => {
+      event.preventDefault();
+      if (experienceCount <= 1) {
+        return null;
+      }
+      setExperienceCount((prevCount) => prevCount - 1);
+    },
+    [experienceCount]
+  );
+
   const experiencesToShow = EXPERIENCES.sort((a, b) => b.id - a.id).slice(
     0,
     experienceCount
@@ -52,6 +63,12 @@ const Experiences = () => {
             text="Click More"
             hasResume={false}
             hideBtn={isDataHasSameLength}
+          />
+          <ResumeBtn
+            onClick={handleLess}
+            text="Click Less"
+            hasResume={false}
+            hideBtn={experienceCount <= 1}
           />
         </div>
       </section>
