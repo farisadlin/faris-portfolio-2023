@@ -315,6 +315,28 @@ export const ARCHIVES = [
   {
     id: 7,
     category: "NEXT.JS",
+    title: "Wedding Website With Next.JS (Edel Faris)",
+    desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
+    tags: ["NEXT.JS", "VERCEL", "EMOTION", "STYLED-COMPONENT"],
+    urlGithub: "#",
+    urlWebsite: "https://wedding-edel-faris-new.vercel.app/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1727340025/farisedel/SCR-20240926-nvuv_mjh89c.jpg",
+  },
+  {
+    id: 8,
+    category: "NEXT.JS",
+    title: "Wedding Website With Next.JS (Dode Mirah)",
+    desc: "Created a wedding website lookalike flip-book with a congratulations section for invited guests to give their congratulations.",
+    tags: ["NEXT.JS", "VERCEL", "EMOTION", "STYLED-COMPONENT"],
+    urlGithub: "#",
+    urlWebsite: "https://wedding-dode-mirah.vercel.app/",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1727334101/dodemirah/wedding-dode-mirah.vercel.app__1_wcipnn.png",
+  },
+  {
+    id: 9,
+    category: "NEXT.JS",
     title: "Wedding Website With Next.JS (Riska Intan)",
     desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: ["NEXT.JS", "VERCEL", "EMOTION", "STYLED-COMPONENT"],
@@ -324,7 +346,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088054/Slideshow/Faris%20Porfolio%20Site/9._Riska_Intan_fslqdy.png",
   },
   {
-    id: 8,
+    id: 10,
     category: "NEXT.JS",
     title: "Wedding Website With Next.JS (Rico Peni)",
     desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
@@ -342,7 +364,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940528/farisadlin/ricopeni-thumbnail_sd82xn.png",
   },
   {
-    id: 9,
+    id: 11,
     category: "VUE.JS",
     title: "Vue Pokemon",
     desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
@@ -353,7 +375,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvse_we9tia.jpg",
   },
   {
-    id: 10,
+    id: 12,
     category: "NEXT.JS",
     title: "HireFazz Landing Page",
     desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
@@ -364,7 +386,7 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940528/farisadlin/ricopeni-thumbnail_sd82xn.png",
   },
   {
-    id: 11,
+    id: 13,
     category: "NEXT.JS",
     title: "HireFazz Main App",
     desc: "Fullstack web app for a platform that uses AI to streamline the hiring process by automating repetitive tasks like CV screening and job matching.",
@@ -375,10 +397,10 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvon_njffeo.png",
   },
   {
-    id: 12,
+    id: 14,
     category: "FULL-STACK",
     title: "Todos App",
-    desc: "Another todos app. But wait, this is different, because it demonstrates that I’m capable of being a full-stack developer using Javascript all the way! (Next.js and Express.js)",
+    desc: "Another todos app. But wait, this is different, because it demonstrates that I'm capable of being a full-stack developer using Javascript all the way! (Next.js and Express.js)",
     tags: ["NEXT.JS", "EXPRESS.JS", "TYPESCRIPT", "MYSQL"],
     urlGithub: [
       "https://github.com/farisadlin/todos-app-client-side",
@@ -389,5 +411,4 @@ export const ARCHIVES = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1725399944/farisadlin/SCR-20240904-ccrq_srss3c.png",
   },
 ];
-
 export default {};
