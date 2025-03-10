@@ -16,13 +16,14 @@ const Hero = () => {
           I'm a Experienced Software Engineer.
         </h2>
         <p className="max-w-xl mt-5">
-          As a passionate, experienced front-end developer with 3+ years of
-          experience in web and mobile development and a proven track record of
-          making significant, specific, and self-direction contributions to
-          challenging and complex UX projects. He is proficient with JavaScript,
-          TypeScript, and modern client-side frameworks such as React, Redux,
-          CRA, and Next.js. Seeking a position to apply exceptional
-          problem-solving and collaborative skills as part of a team.
+          I'm a passionate Front-End Developer with 4+ years of experience
+          specializing in React.js, Next.js, Vue.js, TypeScript, and
+          cutting-edge UI frameworks. My expertise lies in building responsive,
+          accessible, and scalable web applications powered by AI-driven
+          technologies. Proven track record in optimizing performance, enhancing
+          security, and collaborating effectively within cross-functional teams
+          to deliver intelligent, user-focused solutions in SaaS, FinTech, and
+          logistics sectors.
         </p>
         <ResumeBtn />
       </div>

@@ -146,11 +146,67 @@ significantly improving the reliability and maintainability of the codebase.
     ],
     url: "https://www.onebrick.io/",
   },
+  {
+    id: 6,
+    jobPosition: "Software Engineer (Front End)",
+    company: "HireFazz",
+    dateRange: "07/2024 - 08/2024",
+    jobDesc: [
+      `
+Developed and maintained AI-powered features on the Landing Page and Main Feature Dashboard using TypeScript, Next.JS, and Shadcn UI.
+      `,
+    ],
+    url: "http://hirefazz.com",
+  },
+  {
+    id: 7,
+    jobPosition: "Software Engineer (Front End)",
+    company: "Property Connect",
+    dateRange: "08/2024 - 09/2024",
+    jobDesc: [
+      `
+Constructed from scratch, developed, and maintained the Landing Page and Main Feature Dashboard using TypeScript, PHP, Laravel, and Next.js.
+      `,
+    ],
+    url: "https://www.propertyconnect.io",
+  },
+  {
+    id: 8,
+    jobPosition: "Software Engineer (Front End)",
+    company: "MyKonsul",
+    dateRange: "09/2024 - 02/2025",
+    jobDesc: [
+      `
+Constructed from the ground up, developed, and maintained the Client Dashboard and Advocate Dashboard using TypeScript, Next.JS, and Shadcn UI.
+      `,
+    ],
+    url: "https://www.mykonsul.com",
+  },
 ];
 
 export const PROJECTS = [
   {
     id: 1,
+    title: "AI Faris Agents",
+    desc: "Fullstack web app for AI Agents powered by DeepSeek",
+    tags: ["VUE.JS", "FASTIFY", "TYPESCRIPT", "NODE-TS", "SUPABASE", "RAILWAY"],
+    urlGithub: "",
+    urlWebsite: "https://ai-faris-agents.vercel.app",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633567/SCR-20250311-crsv_kt7pcx.png",
+  },
+  {
+    id: 2,
+    title: "Property Connect",
+    desc: "Fullstack web app for a platform the property management",
+    tags: ["NEXT.JS", "LARAVEL", "TYPESCRIPT", "PHP", "MYSQL"],
+    urlGithub: "",
+    urlWebsite: "https://www.propertyconnect.io",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633569/SCR-20250311-cscs_wsqbcb.jpg",
+  },
+  {
+    id: 3,
     title: "HireFazz Main App",
     desc: "Fullstack web app for a platform that uses AI to streamline the hiring process by automating repetitive tasks like CV screening and job matching.",
     tags: ["NEXT.JS", "RADIX UI", "TYPESCRIPT", "NODE-TS", "PRISMA", "MYSQL"],
@@ -160,7 +216,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvon_njffeo.png",
   },
   {
-    id: 2,
+    id: 4,
     category: "FULL-STACK",
     title: "Todos App",
     desc: "Another todos app. But wait, this is different, because it demonstrates that I’m capable of being a full-stack developer using Javascript all the way! (Next.js and Express)",
@@ -171,7 +227,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1725399944/farisadlin/SCR-20240904-ccrq_srss3c.png",
   },
   {
-    id: 3,
+    id: 5,
     title: "Beach Resort",
     desc: "Built a beach resort web with sorting based on pricing, guest count, room types, size, breakfast, and pet-friendly features.",
     tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
@@ -181,7 +237,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088024/Slideshow/Faris%20Porfolio%20Site/1._Beach_Resort_bplkkj.png",
   },
   {
-    id: 4,
+    id: 6,
     title: "Vue Pokemon",
     desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
     tags: ["VUE.JS", "PINIA", "GRAPHQL", "VERCEL"],
@@ -191,7 +247,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1689786446/vue-pokemon/vue-pokemon-1_inwuyf.png",
   },
   {
-    id: 5,
+    id: 7,
     title: "Wedding Website With Next.JS (Edel Faris)",
     desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
@@ -208,7 +264,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940233/farisadlin/edelfaris-thumbnail_fiiazi.png",
   },
   {
-    id: 6,
+    id: 8,
     title: "Wedding Website With Next.JS (Dode Mirah)",
     desc: "Made a wedding website that used a unique style like a digital book with animation such as flipping pages. It has a congratulations section so guests that are invited can give congratulations.",
     tags: [
