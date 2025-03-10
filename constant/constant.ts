@@ -443,7 +443,7 @@ export const ARCHIVES = [
   },
   {
     id: 13,
-    category: "NEXT.JS",
+    category: "FULL-STACK",
     title: "HireFazz Main App",
     desc: "Fullstack web app for a platform that uses AI to streamline the hiring process by automating repetitive tasks like CV screening and job matching.",
     tags: ["NEXT.JS", "RADIX UI", "TYPESCRIPT", "NODE-TS", "PRISMA", "MYSQL"],
@@ -455,6 +455,28 @@ export const ARCHIVES = [
   {
     id: 14,
     category: "FULL-STACK",
+    title: "AI Faris Agents",
+    desc: "Fullstack web app for AI Agents powered by DeepSeek with (Vue.js and Fastify)",
+    tags: ["VUE.JS", "FASTIFY", "TYPESCRIPT", "NODE-TS", "SUPABASE", "RAILWAY"],
+    urlGithub: [],
+    urlWebsite: "https://ai-faris-agents.vercel.app",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633567/SCR-20250311-crsv_kt7pcx.png",
+  },
+  {
+    id: 15,
+    category: "FULL-STACK",
+    title: "Property Connect",
+    desc: "Fullstack web app for Property Connect with (Next.js and Laravel)",
+    tags: ["NEXT.JS", "LARAVEL", "TYPESCRIPT", "PHP"],
+    urlGithub: [],
+    urlWebsite: "https://www.propertyconnect.io",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633567/SCR-20250311-crsv_kt7pcx.png",
+  },
+  {
+    id: 16,
+    category: "FULL-STACK",
     title: "Todos App",
     desc: "Another todos app. But wait, this is different, because it demonstrates that I'm capable of being a full-stack developer using Javascript all the way! (Next.js and Express.js)",
     tags: ["NEXT.JS", "EXPRESS.JS", "TYPESCRIPT", "MYSQL"],
@@ -465,6 +487,16 @@ export const ARCHIVES = [
     urlWebsite: "https://todos-app-client-side.vercel.app/",
     urlImg:
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1725399944/farisadlin/SCR-20240904-ccrq_srss3c.png",
+  },
+  {
+    id: 17,
+    category: "NEXT.JS",
+    title: "Invoice Hub",
+    desc: "A modern invoice management application built with Next.js, Material-UI, and TypeScript. This application helps you create, manage, and track invoices efficiently.",
+    tags: ["NEXT.JS", "MATERIAL UI", "TYPESCRIPT"],
+    urlGithub: ["https://github.com/farisadlin/invoice-hub"],
+    urlWebsite: "https://invoice-hub-mu.vercel.app",
+    urlImg: "",
   },
 ];
 export default {};
