@@ -188,7 +188,7 @@ export const PROJECTS = [
   {
     id: 1,
     title: "AI Faris Agents",
-    desc: "Fullstack web app for AI Agents powered by DeepSeek",
+    desc: "Fullstack responsive web app for AI Agents powered by DeepSeek",
     tags: ["VUE.JS", "FASTIFY", "TYPESCRIPT", "NODE-TS", "SUPABASE", "RAILWAY"],
     urlGithub: "",
     urlWebsite: "https://ai-faris-agents.vercel.app",
@@ -456,7 +456,7 @@ export const ARCHIVES = [
     id: 14,
     category: "FULL-STACK",
     title: "AI Faris Agents",
-    desc: "Fullstack web app for AI Agents powered by DeepSeek with (Vue.js and Fastify)",
+    desc: "Fullstack responsive web app for AI Agents powered by DeepSeek with (Vue.js and Fastify)",
     tags: ["VUE.JS", "FASTIFY", "TYPESCRIPT", "NODE-TS", "SUPABASE", "RAILWAY"],
     urlGithub: [],
     urlWebsite: "https://ai-faris-agents.vercel.app",
