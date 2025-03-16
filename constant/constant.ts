@@ -193,7 +193,7 @@ export const PROJECTS = [
     urlGithub: "",
     urlWebsite: "https://ai-faris-agents.vercel.app",
     urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633567/SCR-20250311-crsv_kt7pcx.png",
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1742118459/SCR-20250316-otnt_id0np1.png",
   },
   {
     id: 2,
@@ -461,18 +461,18 @@ export const ARCHIVES = [
     urlGithub: [],
     urlWebsite: "https://ai-faris-agents.vercel.app",
     urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633567/SCR-20250311-crsv_kt7pcx.png",
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1742118459/SCR-20250316-otnt_id0np1.png",
   },
   {
     id: 15,
     category: "FULL-STACK",
     title: "Property Connect",
-    desc: "Fullstack web app for Property Connect with (Next.js and Laravel)",
+    desc: "Fullstack responsive web app for Property Connect with (Next.js and Laravel)",
     tags: ["NEXT.JS", "LARAVEL", "TYPESCRIPT", "PHP"],
     urlGithub: [],
     urlWebsite: "https://www.propertyconnect.io",
     urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633567/SCR-20250311-crsv_kt7pcx.png",
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633569/SCR-20250311-cscs_wsqbcb.jpg",
   },
   {
     id: 16,
