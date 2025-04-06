@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Drawer from "./Drawer";
 import { MENUS } from "../constant/constant";
 import Image from "next/image";
@@ -7,13 +7,38 @@ import ResumeBtn from "./ResumeBtn";
 import smoothScroll from "../utils/smoothScroll";
 
 const Nav = () => {
+  const [activeSection, setActiveSection] = useState("");
+
+  useEffect(() => {
+    // Create intersection observer to detect visible sections
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    // Observe all sections in the page
+    MENUS.forEach((menu) => {
+      const sectionId = menu.url.substring(1);
+      const element = document.getElementById(sectionId);
+      if (element) observer.observe(element);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className="fixed top-0 z-50 font-space-mono w-full">
-      <div className="navbar bg-base-100 py-7 px-9">
+    <section className="fixed top-0 z-50 w-full font-space-mono">
+      <div className="px-9 py-7 navbar bg-base-100">
         <div className="flex-1">
           <a href="/">
             <Image
-              className="cursor-pointer z-20"
+              className="z-20 cursor-pointer"
               src={Logo}
               width={50}
               height={50}
@@ -22,13 +47,17 @@ const Nav = () => {
           </a>
         </div>
         <div className="flex-none">
-          <ul className="hidden lg:flex justify-center menu-horizontal px-1">
+          <ul className="hidden justify-center px-1 lg:flex menu-horizontal">
             {MENUS.map((menu, index) => [
               <li
                 onClick={smoothScroll}
-                className="self-center mr-10 cursor-pointer hover:text-secondary duration-150"
+                className={`self-center mr-10 cursor-pointer duration-150 ${
+                  activeSection === menu.url.substring(1)
+                    ? "text-secondary"
+                    : "hover:text-secondary"
+                }`}
               >
-                <a className="text-secondary text-center font-mono text-sm">{`0${
+                <a className="font-mono text-sm text-center text-secondary">{`0${
                   index + 1
                 }. `}</a>
                 <a href={menu.url} className="text-center">
