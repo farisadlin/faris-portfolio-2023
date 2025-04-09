@@ -152,9 +152,14 @@ significantly improving the reliability and maintainability of the codebase.
     company: "HireFazz",
     dateRange: "07/2024 - 08/2024",
     jobDesc: [
-      `
-Developed and maintained AI-powered features on the Landing Page and Main Feature Dashboard using TypeScript, Next.JS, and Shadcn UI.
-      `,
+      "Expanded company's digital presence while revolutionizing recruitment processes through AI implementation.",
+      "Developed critical website sections including services overview, company background, solution offerings, and pricing structures.",
+      "Engineered AI-powered recruitment system transforming the traditional hiring process.",
+      "Implemented CV screening automation reducing initial candidate review time by eliminating manual sorting.",
+      "Created asynchronous interview capability allowing candidates to complete interviews on their schedule.",
+      "Designed comprehensive scoring algorithms for both candidates and CVs ensuring objective evaluation.",
+      "Delivered integrated solution combining intuitive website navigation with sophisticated recruitment tools.",
+      "Established data-driven recruitment framework replacing subjective assessment with quantifiable metrics.",
     ],
     url: "http://hirefazz.com",
   },
@@ -164,9 +169,11 @@ Developed and maintained AI-powered features on the Landing Page and Main Featur
     company: "Property Connect",
     dateRange: "08/2024 - 09/2024",
     jobDesc: [
-      `
-Constructed from scratch, developed, and maintained the Landing Page and Main Feature Dashboard using TypeScript, PHP, Laravel, and Next.js.
-      `,
+      "Built comprehensive website architecture including homepage, partnership section, markets overview, news portal, and contact interface",
+      "Implemented fully responsive design ensuring optimal viewing experience across all devices while maintaining clean, elegant aesthetics",
+      "Developed custom Content Management System enabling non-technical staff to Create, Read, Update and Delete news content independently",
+      "Engineered intuitive admin interfaces eliminating the need for developer intervention in routine content updates",
+      "Delivered a solution balancing visual appeal with functional simplicity, enhancing the company's professional online presence",
     ],
     url: "https://www.propertyconnect.io",
   },
@@ -176,17 +183,47 @@ Constructed from scratch, developed, and maintained the Landing Page and Main Fe
     company: "MyKonsul",
     dateRange: "09/2024 - 02/2025",
     jobDesc: [
-      `
-Constructed from the ground up, developed, and maintained the Client Dashboard and Advocate Dashboard using TypeScript, Next.JS, and Shadcn UI.
-      `,
+      "Engineered real-time websocket chat functionality enabling instant communication between clients and legal advocates",
+      "Built PDF generation system for legal proposals, case documents, and advocate profiles, eliminating manual paperwork",
+      "Implemented notification infrastructure ensuring timely updates on case developments",
+      "Developed a bidding system with simulation capabilities allowing advocates to strategically evaluate potential cases",
+      "Created comprehensive status tracking dashboards for both clients and advocates to monitor progress",
+      "Designed intuitive profile customization features increasing platform personalization and user satisfaction",
+      "Established case registration and advocate selection mechanisms streamlining the client-advocate matching process",
     ],
     url: "https://www.mykonsul.com",
+  },
+  {
+    id: 9,
+    jobPosition: "Software Engineer (Front End)",
+    company: "CBMO AI",
+    dateRange: "03/2025 - 04/2025",
+    jobDesc: [
+      "Designed and implemented fully mobile-responsive layouts across all nine pages, ensuring optimal user experience on all devices",
+      "Applied SEO best practices throughout the site architecture, improving search engine visibility and performance",
+      "Created engaging UI animations using Framer Motion to enhance visual appeal and user engagement",
+      "Built the entire project using React, Next.js, and TypeScript for a robust, maintainable codebase",
+      "Delivered the complete project including all responsive features within a tight one-week timeframe",
+      "Implemented cross-browser compatibility testing to ensure consistent performance across platforms",
+      "Collaborated with stakeholders to translate design requirements into functional, responsive code",
+    ],
+    url: "https://cbmo.ai",
   },
 ];
 
 export const PROJECTS = [
   {
     id: 1,
+    title: "CBMO AI",
+    desc: "Led the development of a comprehensive landing page with multiple sections including Home, About, Blog, Pricing, Demo, and various policy pages.",
+    tags: ["NEXT.JS", "FRAMER MOTION", "TYPESCRIPT", "TAILWIND CSS"],
+    urlGithub: "",
+    urlWebsite: "https://cbmo.ai",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1744170674/SCR-20250406-lfmu_tgxxxx.png",
+  },
+  {
+    id: 2,
     title: "AI Faris Agents",
     desc: "Fullstack responsive web app for AI Agents powered by DeepSeek",
     tags: ["VUE.JS", "FASTIFY", "TYPESCRIPT", "NODE-TS", "SUPABASE", "RAILWAY"],
@@ -196,9 +233,9 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1742118459/SCR-20250316-otnt_id0np1.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Property Connect",
-    desc: "Fullstack web app for a platform the property management",
+    desc: "Designed and developed a corporate website with content management capabilities to strengthen the company's digital presence and streamline content updates.",
     tags: ["NEXT.JS", "LARAVEL", "TYPESCRIPT", "PHP", "MYSQL"],
     urlGithub: "",
     urlWebsite: "https://www.propertyconnect.io",
@@ -206,20 +243,20 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1741633569/SCR-20250311-cscs_wsqbcb.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "HireFazz Main App",
-    desc: "Fullstack web app for a platform that uses AI to streamline the hiring process by automating repetitive tasks like CV screening and job matching.",
-    tags: ["NEXT.JS", "RADIX UI", "TYPESCRIPT", "NODE-TS", "PRISMA", "MYSQL"],
+    desc: "Expanded company's digital presence while revolutionizing recruitment processes through AI implementation.",
+    tags: ["NEXT.JS", "SHADCN", "TYPESCRIPT", "NODE-TS", "PRISMA", "MYSQL"],
     urlGithub: "",
     urlWebsite: "https://app.hirefazz.com/",
     urlImg:
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1722873602/farisadlin/SCR-20240805-tvon_njffeo.png",
   },
   {
-    id: 4,
+    id: 5,
     category: "FULL-STACK",
     title: "Todos App",
-    desc: "Another todos app. But wait, this is different, because it demonstrates that I’m capable of being a full-stack developer using Javascript all the way! (Next.js and Express)",
+    desc: "Another todos app. But wait, this is different, because it demonstrates that I'm capable of being a full-stack developer using Javascript all the way! (Next.js and Express)",
     tags: ["NEXT.JS", "EXPRESS.JS", "TYPESCRIPT", "MYSQL"],
     urlGithub: "https://github.com/farisadlin/todos-app-client-side",
     urlWebsite: "https://todos-app-client-side.vercel.app/",
@@ -227,7 +264,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1725399944/farisadlin/SCR-20240904-ccrq_srss3c.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Beach Resort",
     desc: "Built a beach resort web with sorting based on pricing, guest count, room types, size, breakfast, and pet-friendly features.",
     tags: ["REACT.JS", "REDUX", "CONTEXT API", "NETLIFY", "CONTENTFUL"],
@@ -237,7 +274,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1635088024/Slideshow/Faris%20Porfolio%20Site/1._Beach_Resort_bplkkj.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "Vue Pokemon",
     desc: "Built a Pokémon page that can catch some Pokémons and can manage your own Pokémon.",
     tags: ["VUE.JS", "PINIA", "GRAPHQL", "VERCEL"],
@@ -247,7 +284,7 @@ export const PROJECTS = [
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1689786446/vue-pokemon/vue-pokemon-1_inwuyf.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "Wedding Website With Next.JS (Edel Faris)",
     desc: "Created a wedding website with a congratulations section for invited guests to give their congratulations.",
     tags: [
@@ -262,23 +299,6 @@ export const PROJECTS = [
     urlWebsite: "https://wedding-edel-faris-new.vercel.app",
     urlImg:
       "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1642940233/farisadlin/edelfaris-thumbnail_fiiazi.png",
-  },
-  {
-    id: 8,
-    title: "Wedding Website With Next.JS (Dode Mirah)",
-    desc: "Made a wedding website that used a unique style like a digital book with animation such as flipping pages. It has a congratulations section so guests that are invited can give congratulations.",
-    tags: [
-      "NEXT.JS",
-      "VERCEL",
-      "EMOTION",
-      "STYLED-COMPONENT",
-      "NODE.JS",
-      "MONGODB",
-    ],
-    urlGithub: "#",
-    urlWebsite: "https://wedding-dode-mirah.vercel.app",
-    urlImg:
-      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1646453750/farisadlin/ss_dode_mirah_wedding_aueiyz.png",
   },
 ];
 
@@ -497,6 +517,17 @@ export const ARCHIVES = [
     urlGithub: ["https://github.com/farisadlin/invoice-hub"],
     urlWebsite: "https://invoice-hub-mu.vercel.app",
     urlImg: "",
+  },
+  {
+    id: 18,
+    category: "NEXT.JS",
+    title: "CBMO AI",
+    desc: "Led the development of a comprehensive landing page with multiple sections including Home, About, Blog, Pricing, Demo, and various policy pages.",
+    tags: ["NEXT.JS", "FRAMER MOTION", "TYPESCRIPT", "TAILWIND CSS"],
+    urlGithub: "",
+    urlWebsite: "https://cbmo.ai",
+    urlImg:
+      "https://res.cloudinary.com/https-farisadlin-com/image/upload/v1744170674/SCR-20250406-lfmu_tgxxxx.png",
   },
 ];
 export default {};
