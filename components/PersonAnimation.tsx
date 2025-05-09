@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import { Canvas, useFrame, extend, ReactThreeFiber } from '@react-three/fiber';
+import type { ReactThreeFiber } from '@react-three/fiber';
+import { Canvas, useFrame, extend } from '@react-three/fiber';
 import { OrbitControls, shaderMaterial, Text } from '@react-three/drei';
 import * as THREE from 'three';
 
@@ -192,7 +193,7 @@ function Computer() {
 
   useFrame(state => {
     if (screenRef.current) {
-      screenRef.current.uniforms['time'].value = state.clock.elapsedTime;
+      screenRef.current.uniforms.time.value = state.clock.elapsedTime;
     }
     if (screenLightRef.current) {
       // Simulate screen light flickering
@@ -322,9 +323,7 @@ function NeonText() {
   const textRef = React.useRef<Text & { material: THREE.MeshBasicMaterial }>(null);
 
   useFrame(state => {
-    if (textRef.current && textRef.current.material) {
-      textRef.current.material.color.setHSL(0.5, 1, 0.5 + Math.sin(state.clock.elapsedTime) * 0.2);
-    }
+    textRef.current?.material?.color.setHSL(0.5, 1, 0.5 + Math.sin(state.clock.elapsedTime) * 0.2);
   });
 
   return (

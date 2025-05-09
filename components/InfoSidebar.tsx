@@ -8,7 +8,7 @@ const InfoSidebar = () => {
         {INFO_LINKS.map(link => {
           const Icon = link.icon;
           return (
-            <li className="mb-6">
+            <li className="mb-6" key={link.url}>
               <a href={link.url} target="_blank" rel="noopener noreferrer">
                 <Icon
                   size={24}

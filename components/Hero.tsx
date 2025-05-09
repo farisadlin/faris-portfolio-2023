@@ -16,18 +16,18 @@ const Hero = () => {
           id="hero-heading"
           className="text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-secondary"
         >
-          Hello, I'm Faris Adlin.
+          Hello, I&apos;m Faris Adlin.
         </h2>
         <h2 className="text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-zinc-300">
-          I'm a Experienced Software Engineer.
+          I&apos;m a Experienced Software Engineer.
         </h2>
         <p className="max-w-xl mt-5">
-          I'm a passionate Front-End Developer with 4+ years of experience specializing in React.js,
-          Next.js, Vue.js, TypeScript, and cutting-edge UI frameworks. My expertise lies in building
-          responsive, accessible, and scalable web applications powered by AI-driven technologies.
-          Proven track record in optimizing performance, enhancing security, and collaborating
-          effectively within cross-functional teams to deliver intelligent, user-focused solutions
-          in SaaS, FinTech, and logistics sectors.
+          I&apos;m a passionate Front-End Developer with 4+ years of experience specializing in
+          React.js, Next.js, Vue.js, TypeScript, and cutting-edge UI frameworks. My expertise lies
+          in building responsive, accessible, and scalable web applications powered by AI-driven
+          technologies. Proven track record in optimizing performance, enhancing security, and
+          collaborating effectively within cross-functional teams to deliver intelligent,
+          user-focused solutions in SaaS, FinTech, and logistics sectors.
         </p>
         <ResumeBtn />
       </div>

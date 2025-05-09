@@ -77,7 +77,10 @@ const Drawer = () => {
               </div>
               <ul>
                 {MENUS.map((menu, index) => [
-                  <li className="list-none cursor-pointer hover:text-secondary duration-150 flex flex-col mt-4">
+                  <li
+                    className="list-none cursor-pointer hover:text-secondary duration-150 flex flex-col mt-4"
+                    key={index}
+                  >
                     <a className="text-secondary text-center font-mono text-sm">{`0${
                       index + 1
                     }.`}</a>

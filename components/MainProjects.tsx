@@ -2,6 +2,7 @@ import React from 'react';
 import { PROJECTS } from '../constant/constant';
 import { FiGithub } from 'react-icons/fi';
 import { TfiNewWindow } from 'react-icons/tfi';
+import Image from 'next/image';
 
 const MainProjects = () => {
   return (
@@ -95,11 +96,13 @@ const MainProjects = () => {
                 rel="noopener noreferrer"
                 aria-label={`View ${project.title} project details`}
               >
-                <img
+                <Image
                   className="reverse-photo-filter duration-150 w-full h-half-screen md:h-full"
                   src={project.urlImg}
                   alt={`Screenshot of ${project.title} project`}
                   loading="lazy"
+                  width={1000}
+                  height={1000}
                 />
               </a>
             </div>

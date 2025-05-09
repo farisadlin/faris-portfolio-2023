@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { ARCHIVES, ARCHIVE_CATEGORIES } from '../constant/constant';
-import { FiGithub } from 'react-icons/fi';
+import { FiGithub, FiFolder } from 'react-icons/fi';
 import { TfiNewWindow } from 'react-icons/tfi';
-import { FiFolder } from 'react-icons/fi';
 
 const NotableProjects = () => {
   const [archiveCategory, setArchiveCategory] = useState(ARCHIVES[0].category);
@@ -26,12 +25,13 @@ const NotableProjects = () => {
             role="tab"
             aria-selected={filteredArchives.some(archive => archive.category === category)}
             aria-controls={`projects-${category.toLowerCase()}`}
-            className={`${
-              filteredArchives.some(archive => archive.category === category) &&
-              'text-secondary underline'
-            } hover:underline cursor-pointer ${
-              indexCategory === ARCHIVE_CATEGORIES.length - 1 ? 'mr-0' : 'mr-5'
-            }`}
+            className={[
+              filteredArchives.some(archive => archive.category === category)
+                ? 'text-secondary underline'
+                : '',
+              'hover:underline cursor-pointer',
+              indexCategory === ARCHIVE_CATEGORIES.length - 1 ? 'mr-0' : 'mr-5',
+            ].join(' ')}
           >
             {category}
           </button>

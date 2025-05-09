@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Logo from '../styles/logo.svg';
 import ResumeBtn from './ResumeBtn';
 import smoothScroll from '../utils/smoothScroll';
+import Link from 'next/link';
 
 const Nav = () => {
   const [activeSection, setActiveSection] = useState('');
@@ -36,14 +37,15 @@ const Nav = () => {
     <section className="fixed top-0 z-50 w-full font-space-mono">
       <div className="px-9 py-7 navbar bg-base-100">
         <div className="flex-1">
-          <a href="/">
+          <Link href="/">
             <Image className="z-20 cursor-pointer" src={Logo} width={50} height={50} alt="Logo" />
-          </a>
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="hidden justify-center px-1 lg:flex menu-horizontal">
             {MENUS.map((menu, index) => [
               <li
+                key={menu.url}
                 onClick={smoothScroll}
                 className={`self-center mr-10 cursor-pointer duration-150 ${
                   activeSection === menu.url.substring(1)
