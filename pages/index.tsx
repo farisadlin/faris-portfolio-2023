@@ -27,6 +27,7 @@ export default function Home(): ReactNode {
     <>
       <Meta />
       <IntroAnimation
+        data-testid="intro-animation"
         animationFinished={animationFinished}
         handleAnimationEnd={handleAnimationEnd}
       />

@@ -1,1 +1,1 @@
-#!/usr/bin/env sh\nyarn lint-staged
+#!/usr/bin/env sh\n. "$(dirname -- "$0")/_/husky.sh"\n\nnpx lint-staged
