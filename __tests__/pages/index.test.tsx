@@ -1,5 +1,6 @@
-import { render, screen, fireEvent } from '@testing-library/react';
-import Home from '../../pages/index';
+import { render } from '@testing-library/react';
+import { fireEvent, screen } from '@testing-library/dom';
+import Home from '../../pages';
 
 describe('Home', () => {
   it('renders without crashing', () => {

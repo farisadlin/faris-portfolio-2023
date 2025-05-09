@@ -1,4 +1,4 @@
-import React, { type ReactNode, useState } from 'react';
+import React, { useState } from 'react';
 import IntroAnimation from '../components/IntroAnimation';
 import Nav from '../components/Nav';
 import { Transition } from '@headlessui/react';
@@ -12,7 +12,7 @@ import Works from '../components/Works';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
-export default function Home(): ReactNode {
+export default function Home(): JSX.Element {
   const [animationFinished, setAnimationFinished] = useState(false);
 
   const handleAnimationEnd = (): void => {
