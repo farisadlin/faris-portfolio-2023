@@ -1,23 +1,18 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard-with-typescript'
-  ],
-  overrides: [
-  ],
+  extends: ['plugin:react/recommended', 'standard-with-typescript', 'plugin:prettier/recommended'],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: [
-    'react'
-  ],
+  plugins: ['react', 'prettier'],
   rules: {
-    indent: ['error', 2],
-    '@typescript-eslint/prefer-nullish-coalescing': 'off'
-  }
-}
+    'prettier/prettier': 'error',
+    'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/prefer-nullish-coalescing': 'off',
+  },
+};
