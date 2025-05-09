@@ -209,6 +209,19 @@ significantly improving the reliability and maintainability of the codebase.
     ],
     url: 'https://cbmo.ai',
   },
+  {
+    id: 10,
+    jobPosition: 'Lead Front End Developer',
+    company: 'MyKonsul',
+    dateRange: '04/2025 - 05/2025',
+    jobDesc: [
+      'Led a team of four front-end developers in the successful delivery of seven major features within a tight two-week deadline, working intensively across 14 consecutive days to meet business goals',
+      'Developed and maintained a scalable component library, creating reusable UI elements to ensure consistent design and accelerate development across the entire front-end',
+      'Implemented Role-Based Access Control (RBAC) to manage user permissions and access levels effectively for different roles within the Admin panel',
+      'Configured centralized dashboard controls for both advocate and client roles, streamlining management and improving user experience across both interfaces',
+    ],
+    url: 'https://admin.mykonsul.com',
+  },
 ];
 
 export const PROJECTS = [

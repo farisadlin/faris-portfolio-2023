@@ -64,20 +64,20 @@ const Experiences = () => {
           </div>
         </div>
         <div
-          className="flex justify-center"
+          className="flex justify-center gap-2"
           role="group"
           aria-label="Experience navigation controls"
         >
           <ResumeBtn
             onClick={handleMore}
-            text="Show More Experiences"
+            text="More"
             hasResume={false}
             hideBtn={isDataHasSameLength}
             aria-label={`Show more experiences (currently showing ${experienceCount} of ${EXPERIENCES.length})`}
           />
           <ResumeBtn
             onClick={handleLess}
-            text="Show Less Experiences"
+            text="Less"
             hasResume={false}
             hideBtn={experienceCount <= 1}
             aria-label={`Show fewer experiences (currently showing ${experienceCount} of ${EXPERIENCES.length})`}
