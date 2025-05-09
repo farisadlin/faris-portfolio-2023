@@ -16,3 +16,13 @@ export interface HeadingFormatProps {
 export interface ExperienceItemProps {
   experience: ExperienceProps;
 }
+
+export interface ResumeBtnProps {
+  hideBtn?: boolean;
+  noMargin?: boolean;
+  text?: string;
+  urlDownload?: string;
+  hasResume?: boolean;
+  onClick?: (event: React.MouseEvent<HTMLElement>) => void;
+  'aria-label'?: string;
+}

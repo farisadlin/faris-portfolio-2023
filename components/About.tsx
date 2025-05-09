@@ -87,18 +87,16 @@ const About = () => {
             make a significant impact in the industry for years to come.
           </p>
         </div>
-        <div
-          className="mt-10 xl:mt-0 xl:mx-0 mx-auto relative w-60 h-60 md:w-72 md:h-72 after:block after:absolute after:content after:border-2 after:rounded-md after:border-secondary after:h-full after:w-full after:top-4 after:left-4 after:hover:top-5 after:hover:left-5 after:-z-10 after:duration-150"
-          aria-label="Profile photo container"
-        >
-          <Image
-            className="rounded-md photo-filter hover:-translate-y-1 hover:-translate-x-1 duration-150"
-            src={Photo}
-            width={300}
-            height={300}
-            alt="Faris Adlin - Software Engineer and Front-end Developer"
-            priority
-          />
+        <div className="relative">
+          <div className="relative w-full h-full">
+            <Image
+              src={Photo}
+              alt="Faris Adlin - Software Engineer and Front-end Developer"
+              className="rounded-lg"
+              width={300}
+              height={300}
+            />
+          </div>
         </div>
       </div>
     </section>

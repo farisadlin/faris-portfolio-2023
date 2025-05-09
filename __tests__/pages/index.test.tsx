@@ -1,6 +1,5 @@
-import { render } from '@testing-library/react';
-import { fireEvent, screen } from '@testing-library/dom';
-import Home from '../../pages';
+import { render, screen, fireEvent, act } from '@testing-library/react';
+import Home from '../../pages/index';
 
 describe('Home', () => {
   it('renders without crashing', () => {
@@ -17,7 +16,9 @@ describe('Home', () => {
 
     // Simulate animation end
     const introAnimation = screen.getByTestId('intro-animation');
-    fireEvent.animationEnd(introAnimation);
+    await act(async () => {
+      fireEvent.animationEnd(introAnimation);
+    });
 
     // Now main content should be visible
     expect(screen.getByRole('main')).toBeInTheDocument();

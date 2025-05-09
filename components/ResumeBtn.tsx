@@ -1,14 +1,5 @@
 import React from 'react';
-
-interface ResumeBtnProps {
-  hideBtn?: boolean;
-  noMargin?: boolean;
-  text?: string;
-  urlDownload?: string;
-  hasResume?: boolean;
-  onClick?: (event: React.MouseEvent<HTMLElement>) => void;
-  'aria-label'?: string;
-}
+import type { ResumeBtnProps } from '../types/types';
 
 const ResumeBtn = ({
   hideBtn = false,
@@ -21,12 +12,11 @@ const ResumeBtn = ({
 }: ResumeBtnProps) => {
   const downloadUrl = () => window.open('/resume_faris-adlin.pdf', '_blank');
   return (
-    <a
-      href={hasResume ? urlDownload : '#'}
+    <button
+      onClick={hasResume ? downloadUrl : onClick}
       className={`${hideBtn ? 'hidden' : 'relative'} inline-block text-lg group font-space-mono ${
         hasResume ? '' : 'cursor-pointer'
       } ${noMargin ? '' : 'mt-12'}`}
-      onClick={hasResume ? downloadUrl : onClick}
       aria-label={ariaLabel}
     >
       <span
@@ -40,7 +30,7 @@ const ResumeBtn = ({
         className={`absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0`}
         data-rounded="rounded-lg"
       ></span>
-    </a>
+    </button>
   );
 };
 

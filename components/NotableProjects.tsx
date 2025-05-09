@@ -44,12 +44,7 @@ const NotableProjects = () => {
       >
         {filteredArchives.map(archive => (
           <li key={archive.title} className="bg-zinc-800 px-5 py-7 rounded" role="listitem">
-            <a
-              href={archive.urlWebsite}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`View ${archive.title} project details`}
-            >
+            <div className="flex flex-col h-full">
               <header className="flex justify-between">
                 <div aria-hidden="true">
                   <FiFolder size={48} className="text-secondary" />
@@ -91,8 +86,18 @@ const NotableProjects = () => {
                   </a>
                 </div>
               </header>
-              <h4 className="text-zinc-200 hover:text-secondary mt-6 mb-2 h-12">{archive.title}</h4>
-              <p className="mb-6">{archive.desc}</p>
+              <a
+                href={archive.urlWebsite}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-grow"
+                aria-label={`View ${archive.title} project details`}
+              >
+                <h4 className="text-zinc-200 hover:text-secondary mt-6 mb-2 h-12">
+                  {archive.title}
+                </h4>
+                <p className="mb-6">{archive.desc}</p>
+              </a>
               <footer
                 className="flex flex-wrap flex-row font-space-mono"
                 role="list"
@@ -104,7 +109,7 @@ const NotableProjects = () => {
                   </li>
                 ))}
               </footer>
-            </a>
+            </div>
           </li>
         ))}
       </ul>
