@@ -4,12 +4,21 @@ import PersonAnimation from "./PersonAnimation";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-col justify-center pt-44 lg:mx-20 xl:mx-auto py-28 max-w-7xl xl:max-w-7xl">
+    <section
+      className="h-screen flex flex-col justify-center pt-44 lg:mx-20 xl:mx-auto py-28 max-w-7xl xl:max-w-7xl"
+      aria-labelledby="hero-heading"
+    >
       <div className="z-10 relative">
-        <div className="absolute left-0 sm:left-1/2 lg:left-3/4 h-full -z-10">
+        <div
+          className="absolute left-0 sm:left-1/2 lg:left-3/4 h-full -z-10"
+          aria-hidden="true"
+        >
           <PersonAnimation />
         </div>
-        <h2 className="text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-secondary">
+        <h2
+          id="hero-heading"
+          className="text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-secondary"
+        >
           Hello, I'm Faris Adlin.
         </h2>
         <h2 className="text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-zinc-300">

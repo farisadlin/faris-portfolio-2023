@@ -8,8 +8,12 @@ const About = () => {
     <section
       className="h-full lg:mx-20 xl:mx-auto py-28 max-w-7xl xl:max-w-4xl"
       id="about"
+      role="contentinfo"
+      aria-labelledby="about-heading"
     >
-      <HeadingFormat number={1} title="About Me" />
+      <div id="about-heading">
+        <HeadingFormat number={1} title="About Me" />
+      </div>
       <div className="grid xl:grid-cols-2 mt-10 gap-x-10 grid-cols-1">
         <div>
           <p className="mb-4">
@@ -33,6 +37,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:underline"
+              aria-label="Visit Kamtiv website (opens in new tab)"
             >
               Kamtiv
             </a>{" "}
@@ -42,6 +47,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:underline"
+              aria-label="Visit PT Gamatechno website (opens in new tab)"
             >
               PT Gamatechno
             </a>
@@ -52,6 +58,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:underline"
+              aria-label="Visit Xapiens Teknologi website (opens in new tab)"
             >
               Xapiens Teknologi
             </a>
@@ -61,6 +68,7 @@ const About = () => {
               href="https://kargo.tech/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Visit Kargo Technologies website (opens in new tab)"
             >
               Kargo Technologies
             </a>
@@ -70,6 +78,7 @@ const About = () => {
               href="https://onebrick.io/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Visit Brick Technology website (opens in new tab)"
             >
               Brick Technology
             </a>
@@ -82,13 +91,17 @@ const About = () => {
             significant impact in the industry for years to come.
           </p>
         </div>
-        <div className="mt-10 xl:mt-0 xl:mx-0 mx-auto relative w-60 h-60 md:w-72 md:h-72 after:block after:absolute after:content after:border-2 after:rounded-md after:border-secondary after:h-full after:w-full after:top-4 after:left-4 after:hover:top-5 after:hover:left-5 after:-z-10 after:duration-150">
+        <div
+          className="mt-10 xl:mt-0 xl:mx-0 mx-auto relative w-60 h-60 md:w-72 md:h-72 after:block after:absolute after:content after:border-2 after:rounded-md after:border-secondary after:h-full after:w-full after:top-4 after:left-4 after:hover:top-5 after:hover:left-5 after:-z-10 after:duration-150"
+          aria-label="Profile photo container"
+        >
           <Image
             className="rounded-md photo-filter hover:-translate-y-1 hover:-translate-x-1 duration-150"
             src={Photo}
             width={300}
             height={300}
-            alt="Faris Adlin"
+            alt="Faris Adlin - Software Engineer and Front-end Developer"
+            priority
           />
         </div>
       </div>

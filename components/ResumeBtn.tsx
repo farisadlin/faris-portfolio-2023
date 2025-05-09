@@ -7,6 +7,7 @@ interface ResumeBtnProps {
   urlDownload?: string;
   hasResume?: boolean;
   onClick?: (event: React.MouseEvent<HTMLElement>) => void;
+  "aria-label"?: string;
 }
 
 const ResumeBtn = ({
@@ -16,6 +17,7 @@ const ResumeBtn = ({
   urlDownload = "#",
   hasResume = true,
   onClick = () => null,
+  "aria-label": ariaLabel,
 }: ResumeBtnProps) => {
   const downloadUrl = () => window.open("/resume_faris-adlin.pdf", "_blank");
   return (
@@ -27,6 +29,7 @@ const ResumeBtn = ({
         hasResume ? "" : "cursor-pointer"
       } ${noMargin ? "" : "mt-12"}`}
       onClick={hasResume ? downloadUrl : onClick}
+      aria-label={ariaLabel}
     >
       <span
         className={`relative z-10 px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white block`}

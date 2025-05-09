@@ -10,14 +10,28 @@ const NotableProjects = () => {
     (archive) => archive.category === archiveCategory
   );
   return (
-    <section className="flex flex-col pt-28 pb-36">
+    <section
+      className="flex flex-col pt-28 pb-36"
+      role="region"
+      aria-label="Other noteworthy projects"
+    >
       <h3 className="text-zinc-300 text-2xl md:text-3xl text-center">
         Other Noteworthy Projects
       </h3>
-      <ul className="flex justify-center mt-5 flex-wrap">
+      <div
+        role="tablist"
+        aria-label="Project categories"
+        className="flex justify-center mt-5 flex-wrap"
+      >
         {ARCHIVE_CATEGORIES.map((category, indexCategory) => (
-          <li
+          <button
+            key={category}
             onClick={() => setArchiveCategory(category)}
+            role="tab"
+            aria-selected={filteredArchives.some(
+              (archive) => archive.category === category
+            )}
+            aria-controls={`projects-${category.toLowerCase()}`}
             className={`${
               filteredArchives.some(
                 (archive) => archive.category === category
@@ -27,26 +41,49 @@ const NotableProjects = () => {
             }`}
           >
             {category}
-          </li>
+          </button>
         ))}
-      </ul>
-      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+      </div>
+      <ul
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10"
+        role="list"
+        aria-label="Project cards"
+      >
         {filteredArchives.map((archive) => (
-          <li className="bg-zinc-800 px-5 py-7 rounded">
+          <li
+            key={archive.title}
+            className="bg-zinc-800 px-5 py-7 rounded"
+            role="listitem"
+          >
             <a
               href={archive.urlWebsite}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`View ${archive.title} project details`}
             >
               <header className="flex justify-between">
-                <a>
+                <div aria-hidden="true">
                   <FiFolder size={48} className="text-secondary" />
-                </a>
-                <div className="flex self-center gap-2">
+                </div>
+                <div
+                  className="flex self-center gap-2"
+                  role="group"
+                  aria-label={`Project links for ${archive.title}`}
+                >
                   {Array.isArray(archive.urlGithub) ? (
-                    archive.urlGithub.map((url) => (
-                      <a href={url} target="_blank" rel="noopener noreferrer">
-                        <FiGithub size={24} className="hover:text-secondary" />
+                    archive.urlGithub.map((url, index) => (
+                      <a
+                        key={`${archive.title}-github-${index}`}
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`View ${archive.title} source code on GitHub (opens in new tab)`}
+                      >
+                        <FiGithub
+                          size={24}
+                          className="hover:text-secondary"
+                          aria-hidden="true"
+                        />
                       </a>
                     ))
                   ) : (
@@ -54,29 +91,46 @@ const NotableProjects = () => {
                       href={archive.urlGithub}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`View ${archive.title} source code on GitHub (opens in new tab)`}
                     >
-                      <FiGithub size={24} className="hover:text-secondary" />
+                      <FiGithub
+                        size={24}
+                        className="hover:text-secondary"
+                        aria-hidden="true"
+                      />
                     </a>
                   )}
                   <a
                     href={archive.urlWebsite}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`Visit ${archive.title} live website (opens in new tab)`}
                   >
-                    <TfiNewWindow size={24} className="hover:text-secondary" />
+                    <TfiNewWindow
+                      size={24}
+                      className="hover:text-secondary"
+                      aria-hidden="true"
+                    />
                   </a>
                 </div>
               </header>
-              <p
-                id="projectTitle"
-                className="text-zinc-200 hover:text-secondary mt-6 mb-2 h-12"
-              >
+              <h4 className="text-zinc-200 hover:text-secondary mt-6 mb-2 h-12">
                 {archive.title}
-              </p>
+              </h4>
               <p className="mb-6">{archive.desc}</p>
-              <footer className="flex flex-wrap flex-row font-space-mono">
+              <footer
+                className="flex flex-wrap flex-row font-space-mono"
+                role="list"
+                aria-label={`Technologies used in ${archive.title}`}
+              >
                 {archive.tags.map((tag) => (
-                  <li className="mr-2 lowercase text-sm">{tag}</li>
+                  <li
+                    key={tag}
+                    className="mr-2 lowercase text-sm"
+                    role="listitem"
+                  >
+                    {tag}
+                  </li>
                 ))}
               </footer>
             </a>
