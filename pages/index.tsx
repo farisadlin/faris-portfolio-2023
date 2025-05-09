@@ -15,6 +15,11 @@ import Footer from '../components/Footer';
 // This is a test comment with    inconsistent    spacing   and no semicolon
 //    It should be    formatted    properly    by prettier
 
+// Test function with inconsistent formatting
+const testFunction = (): void => {
+  console.log('test');
+};
+
 export default function Home(): ReactNode {
   const [animationFinished, setAnimationFinished] = useState(false);
 
