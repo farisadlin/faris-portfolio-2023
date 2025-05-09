@@ -1,4 +1,4 @@
-import { ExperienceItemProps } from "../types/types";
+import { ExperienceItemProps } from '../types/types';
 
 const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
   const { jobPosition, company, dateRange, jobDesc, url } = experience;
@@ -6,7 +6,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience }) => {
   return (
     <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-secondary">
       <h3 className="text-xl font-semibold tracking-wide">
-        {jobPosition} @{" "}
+        {jobPosition} @{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"

@@ -1,15 +1,12 @@
-import React from "react";
-import { INFO_LINKS } from "../constant/constant";
+import React from 'react';
+import { INFO_LINKS } from '../constant/constant';
 
 const Footer = () => {
   return (
     <footer className="h-full" role="contentinfo" aria-label="Footer">
-      <nav
-        className="flex gap-10 justify-center md:hidden"
-        aria-label="Social media links"
-      >
+      <nav className="flex gap-10 justify-center md:hidden" aria-label="Social media links">
         <ul className="flex gap-10 justify-center" role="list">
-          {INFO_LINKS.map((link) => {
+          {INFO_LINKS.map(link => {
             const Icon = link.icon;
             return (
               <li key={link.url} className="mb-6" role="listitem">

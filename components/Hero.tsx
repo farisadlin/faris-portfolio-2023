@@ -1,6 +1,6 @@
-import React from "react";
-import ResumeBtn from "./ResumeBtn";
-import PersonAnimation from "./PersonAnimation";
+import React from 'react';
+import ResumeBtn from './ResumeBtn';
+import PersonAnimation from './PersonAnimation';
 
 const Hero = () => {
   return (
@@ -9,10 +9,7 @@ const Hero = () => {
       aria-labelledby="hero-heading"
     >
       <div className="z-10 relative">
-        <div
-          className="absolute left-0 sm:left-1/2 lg:left-3/4 h-full -z-10"
-          aria-hidden="true"
-        >
+        <div className="absolute left-0 sm:left-1/2 lg:left-3/4 h-full -z-10" aria-hidden="true">
           <PersonAnimation />
         </div>
         <h2
@@ -25,14 +22,12 @@ const Hero = () => {
           I'm a Experienced Software Engineer.
         </h2>
         <p className="max-w-xl mt-5">
-          I'm a passionate Front-End Developer with 4+ years of experience
-          specializing in React.js, Next.js, Vue.js, TypeScript, and
-          cutting-edge UI frameworks. My expertise lies in building responsive,
-          accessible, and scalable web applications powered by AI-driven
-          technologies. Proven track record in optimizing performance, enhancing
-          security, and collaborating effectively within cross-functional teams
-          to deliver intelligent, user-focused solutions in SaaS, FinTech, and
-          logistics sectors.
+          I'm a passionate Front-End Developer with 4+ years of experience specializing in React.js,
+          Next.js, Vue.js, TypeScript, and cutting-edge UI frameworks. My expertise lies in building
+          responsive, accessible, and scalable web applications powered by AI-driven technologies.
+          Proven track record in optimizing performance, enhancing security, and collaborating
+          effectively within cross-functional teams to deliver intelligent, user-focused solutions
+          in SaaS, FinTech, and logistics sectors.
         </p>
         <ResumeBtn />
       </div>

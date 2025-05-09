@@ -1,7 +1,7 @@
-import React from "react";
-import { PROJECTS } from "../constant/constant";
-import { FiGithub } from "react-icons/fi";
-import { TfiNewWindow } from "react-icons/tfi";
+import React from 'react';
+import { PROJECTS } from '../constant/constant';
+import { FiGithub } from 'react-icons/fi';
+import { TfiNewWindow } from 'react-icons/tfi';
 
 const MainProjects = () => {
   return (
@@ -17,14 +17,11 @@ const MainProjects = () => {
             <div
               className={`${
                 isEven
-                  ? "md:col-start-6 md:col-end-13 md:text-right"
-                  : "md:col-start-1 md:col-end-8 md:text-left"
+                  ? 'md:col-start-6 md:col-end-13 md:text-right'
+                  : 'md:col-start-1 md:col-end-8 md:text-left'
               } p-8 md:p-0 col-start-1 col-end-13 row-start-1 z-20`}
             >
-              <p
-                className="md:text-secondary font-space-mono"
-                role="doc-subtitle"
-              >
+              <p className="md:text-secondary font-space-mono" role="doc-subtitle">
                 Featured Project
               </p>
               <a
@@ -36,25 +33,20 @@ const MainProjects = () => {
               >
                 {project.title}
               </a>
-              <div
-                className="md:bg-zinc-800 md:p-6 mt-5 rounded"
-                role="article"
-              >
+              <div className="md:bg-zinc-800 md:p-6 mt-5 rounded" role="article">
                 <p>{project.desc}</p>
               </div>
               <ul
                 className={`flex flex-wrap flex-row ${
-                  isEven ? "md:justify-end" : "md:justify-start"
+                  isEven ? 'md:justify-end' : 'md:justify-start'
                 } font-space-mono mt-5`}
                 role="list"
                 aria-label={`Technologies used in ${project.title}`}
               >
-                {project.tags.map((tag) => (
+                {project.tags.map(tag => (
                   <li
                     key={tag}
-                    className={`${
-                      isEven ? "md:ml-2" : "md:mr-2"
-                    } mr-2 lowercase text-sm`}
+                    className={`${isEven ? 'md:ml-2' : 'md:mr-2'} mr-2 lowercase text-sm`}
                     role="listitem"
                   >
                     {tag}
@@ -62,9 +54,7 @@ const MainProjects = () => {
                 ))}
               </ul>
               <div
-                className={`flex ${
-                  isEven ? "md:justify-end" : "md:justify-start"
-                } mt-5`}
+                className={`flex ${isEven ? 'md:justify-end' : 'md:justify-start'} mt-5`}
                 role="group"
                 aria-label={`Project links for ${project.title}`}
               >
@@ -96,9 +86,7 @@ const MainProjects = () => {
             </div>
             <div
               className={`${
-                isEven
-                  ? "md:col-start-1 md:col-end-8"
-                  : "md:col-start-6 md:col-end-13"
+                isEven ? 'md:col-start-1 md:col-end-8' : 'md:col-start-6 md:col-end-13'
               } col-start-1 col-end-13 row-start-1 z-10 w-full`}
             >
               <a

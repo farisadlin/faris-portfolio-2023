@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
-import { Canvas, useFrame, extend, ReactThreeFiber } from "@react-three/fiber";
-import { OrbitControls, shaderMaterial, Text } from "@react-three/drei";
-import * as THREE from "three";
+import React, { useRef } from 'react';
+import { Canvas, useFrame, extend, ReactThreeFiber } from '@react-three/fiber';
+import { OrbitControls, shaderMaterial, Text } from '@react-three/drei';
+import * as THREE from 'three';
 
 // Define the shader material
 const ScreenShaderMaterial = shaderMaterial(
@@ -70,17 +70,14 @@ function Person() {
   const rightArmRef = useRef<THREE.Group>(null!);
   const bodyRef = useRef<THREE.Group>(null!);
 
-  useFrame((state) => {
+  useFrame(state => {
     if (groupRef.current) {
-      groupRef.current.rotation.y =
-        Math.PI + Math.sin(state.clock.elapsedTime * 0.5) * 0.05;
+      groupRef.current.rotation.y = Math.PI + Math.sin(state.clock.elapsedTime * 0.5) * 0.05;
     }
     if (leftArmRef.current && rightArmRef.current) {
       // Animate arms to simulate typing
-      leftArmRef.current.rotation.x =
-        Math.sin(state.clock.elapsedTime * 10) * 0.1 - 0.5;
-      rightArmRef.current.rotation.x =
-        Math.sin(state.clock.elapsedTime * 10 + Math.PI) * 0.1 - 0.5;
+      leftArmRef.current.rotation.x = Math.sin(state.clock.elapsedTime * 10) * 0.1 - 0.5;
+      rightArmRef.current.rotation.x = Math.sin(state.clock.elapsedTime * 10 + Math.PI) * 0.1 - 0.5;
     }
     if (bodyRef.current) {
       // Animate body to bend forward
@@ -133,19 +130,13 @@ function Person() {
 
         {/* Arms */}
         <group position={[0.25, 0.3, 0]} ref={rightArmRef}>
-          <mesh
-            position={[0, -0.2, 0.2]}
-            rotation={[-Math.PI / 2, 0, -Math.PI / 6]}
-          >
+          <mesh position={[0, -0.2, 0.2]} rotation={[-Math.PI / 2, 0, -Math.PI / 6]}>
             <boxGeometry args={[0.1, 0.4, 0.1]} />
             <meshStandardMaterial color="#ffd700" />
           </mesh>
         </group>
         <group position={[-0.25, 0.3, 0]} ref={leftArmRef}>
-          <mesh
-            position={[0, -0.2, 0.2]}
-            rotation={[-Math.PI / 2, 0, Math.PI / 6]}
-          >
+          <mesh position={[0, -0.2, 0.2]} rotation={[-Math.PI / 2, 0, Math.PI / 6]}>
             <boxGeometry args={[0.1, 0.4, 0.1]} />
             <meshStandardMaterial color="#ffd700" />
           </mesh>
@@ -199,14 +190,13 @@ function Computer() {
   const screenRef = useRef<any>(null!);
   const screenLightRef = useRef<THREE.PointLight>(null!);
 
-  useFrame((state) => {
+  useFrame(state => {
     if (screenRef.current) {
-      screenRef.current.uniforms["time"].value = state.clock.elapsedTime;
+      screenRef.current.uniforms['time'].value = state.clock.elapsedTime;
     }
     if (screenLightRef.current) {
       // Simulate screen light flickering
-      screenLightRef.current.intensity =
-        0.8 + Math.sin(state.clock.elapsedTime * 10) * 0.1;
+      screenLightRef.current.intensity = 0.8 + Math.sin(state.clock.elapsedTime * 10) * 0.1;
     }
   });
 
@@ -329,17 +319,11 @@ const NeonMaterial = shaderMaterial(
 extend({ NeonMaterial });
 
 function NeonText() {
-  const textRef = React.useRef<Text & { material: THREE.MeshBasicMaterial }>(
-    null
-  );
+  const textRef = React.useRef<Text & { material: THREE.MeshBasicMaterial }>(null);
 
-  useFrame((state) => {
+  useFrame(state => {
     if (textRef.current && textRef.current.material) {
-      textRef.current.material.color.setHSL(
-        0.5,
-        1,
-        0.5 + Math.sin(state.clock.elapsedTime) * 0.2
-      );
+      textRef.current.material.color.setHSL(0.5, 1, 0.5 + Math.sin(state.clock.elapsedTime) * 0.2);
     }
   });
 
@@ -356,16 +340,10 @@ function NeonText() {
         Rotate by Mouse
       </Text>
       <mesh position={[0, 1.2, -1.01]}>
-        <planeGeometry args={[1.5, 0.3]} />{" "}
-        {/* Increased width from 1.2 to 1.5 */}
+        <planeGeometry args={[1.5, 0.3]} /> {/* Increased width from 1.2 to 1.5 */}
         <neonMaterial color={new THREE.Color(0.85, 0.15, 0.67)} />
       </mesh>
-      <pointLight
-        position={[0, 1.2, -0.9]}
-        intensity={0.5}
-        distance={1}
-        color="#D926AA"
-      />
+      <pointLight position={[0, 1.2, -0.9]} intensity={0.5} distance={1} color="#D926AA" />
     </group>
   );
 }

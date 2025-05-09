@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from "react";
-import Drawer from "./Drawer";
-import { MENUS } from "../constant/constant";
-import Image from "next/image";
-import Logo from "../styles/logo.svg";
-import ResumeBtn from "./ResumeBtn";
-import smoothScroll from "../utils/smoothScroll";
+import React, { useState, useEffect } from 'react';
+import Drawer from './Drawer';
+import { MENUS } from '../constant/constant';
+import Image from 'next/image';
+import Logo from '../styles/logo.svg';
+import ResumeBtn from './ResumeBtn';
+import smoothScroll from '../utils/smoothScroll';
 
 const Nav = () => {
-  const [activeSection, setActiveSection] = useState("");
+  const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     // Create intersection observer to detect visible sections
     const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
+      entries => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
             setActiveSection(entry.target.id);
           }
@@ -23,7 +23,7 @@ const Nav = () => {
     );
 
     // Observe all sections in the page
-    MENUS.forEach((menu) => {
+    MENUS.forEach(menu => {
       const sectionId = menu.url.substring(1);
       const element = document.getElementById(sectionId);
       if (element) observer.observe(element);
@@ -37,13 +37,7 @@ const Nav = () => {
       <div className="px-9 py-7 navbar bg-base-100">
         <div className="flex-1">
           <a href="/">
-            <Image
-              className="z-20 cursor-pointer"
-              src={Logo}
-              width={50}
-              height={50}
-              alt="Logo"
-            />
+            <Image className="z-20 cursor-pointer" src={Logo} width={50} height={50} alt="Logo" />
           </a>
         </div>
         <div className="flex-none">
@@ -53,13 +47,11 @@ const Nav = () => {
                 onClick={smoothScroll}
                 className={`self-center mr-10 cursor-pointer duration-150 ${
                   activeSection === menu.url.substring(1)
-                    ? "text-secondary"
-                    : "hover:text-secondary"
+                    ? 'text-secondary'
+                    : 'hover:text-secondary'
                 }`}
               >
-                <a className="font-mono text-sm text-center text-secondary">{`0${
-                  index + 1
-                }. `}</a>
+                <a className="font-mono text-sm text-center text-secondary">{`0${index + 1}. `}</a>
                 <a href={menu.url} className="text-center">
                   {menu.name}
                 </a>

@@ -1,21 +1,18 @@
-import Image from "next/image";
-import React from "react";
-import Logo from "../styles/logo.svg";
+import Image from 'next/image';
+import React from 'react';
+import Logo from '../styles/logo.svg';
 
 interface IntroAnimationProps {
   animationFinished?: boolean;
   handleAnimationEnd?: () => void;
 }
 
-const IntroAnimation = ({
-  animationFinished = false,
-  handleAnimationEnd,
-}: IntroAnimationProps) => {
+const IntroAnimation = ({ animationFinished = false, handleAnimationEnd }: IntroAnimationProps) => {
   return (
     <section id="introAnimation">
       <Image
         className={`cursor-pointer z-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-48 ${
-          animationFinished ? "animate-fade-out" : "animate-top-to-bottom"
+          animationFinished ? 'animate-fade-out' : 'animate-top-to-bottom'
         }`}
         src={Logo}
         width={150}
@@ -24,7 +21,7 @@ const IntroAnimation = ({
       />
       <p
         className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl ${
-          animationFinished ? "animate-fade-out" : "animate-left-to-right"
+          animationFinished ? 'animate-fade-out' : 'animate-left-to-right'
         }`}
         onAnimationEnd={handleAnimationEnd}
       >
@@ -33,7 +30,7 @@ const IntroAnimation = ({
       </p>
       <p
         className={`absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-10 text-8xl ${
-          animationFinished ? "animate-fade-out" : "animate-right-to-left"
+          animationFinished ? 'animate-fade-out' : 'animate-right-to-left'
         }`}
       >
         <span className="text-secondary animate-change-text-color">A</span>

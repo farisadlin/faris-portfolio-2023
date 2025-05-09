@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from "react";
-import { Transition } from "@headlessui/react";
-import { MENUS } from "../constant/constant";
-import ResumeBtn from "./ResumeBtn";
-import smoothScroll from "../utils/smoothScroll";
+import { useEffect, useRef, useState } from 'react';
+import { Transition } from '@headlessui/react';
+import { MENUS } from '../constant/constant';
+import ResumeBtn from './ResumeBtn';
+import smoothScroll from '../utils/smoothScroll';
 
 const Drawer = () => {
   const drawerRef = useRef<HTMLDivElement>(null);
@@ -14,19 +14,16 @@ const Drawer = () => {
   };
 
   const handleOutsideClick = (event: MouseEvent) => {
-    if (
-      drawerRef.current &&
-      !drawerRef.current.contains(event.target as Node)
-    ) {
+    if (drawerRef.current && !drawerRef.current.contains(event.target as Node)) {
       setIsOpen(false);
     }
   };
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener('mousedown', handleOutsideClick);
 
     return () => {
-      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener('mousedown', handleOutsideClick);
     };
   }, []);
 
@@ -84,11 +81,7 @@ const Drawer = () => {
                     <a className="text-secondary text-center font-mono text-sm">{`0${
                       index + 1
                     }.`}</a>
-                    <a
-                      onClick={toggleDrawer}
-                      href={menu.url}
-                      className="text-center"
-                    >
+                    <a onClick={toggleDrawer} href={menu.url} className="text-center">
                       {menu.name}
                     </a>
                   </li>,

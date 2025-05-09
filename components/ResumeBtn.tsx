@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface ResumeBtnProps {
   hideBtn?: boolean;
@@ -7,27 +7,25 @@ interface ResumeBtnProps {
   urlDownload?: string;
   hasResume?: boolean;
   onClick?: (event: React.MouseEvent<HTMLElement>) => void;
-  "aria-label"?: string;
+  'aria-label'?: string;
 }
 
 const ResumeBtn = ({
   hideBtn = false,
   noMargin = false,
-  text = "Resume",
-  urlDownload = "#",
+  text = 'Resume',
+  urlDownload = '#',
   hasResume = true,
   onClick = () => null,
-  "aria-label": ariaLabel,
+  'aria-label': ariaLabel,
 }: ResumeBtnProps) => {
-  const downloadUrl = () => window.open("/resume_faris-adlin.pdf", "_blank");
+  const downloadUrl = () => window.open('/resume_faris-adlin.pdf', '_blank');
   return (
     <a
-      href={hasResume ? urlDownload : "#"}
-      className={`${
-        hideBtn ? "hidden" : "relative"
-      } inline-block text-lg group font-space-mono ${
-        hasResume ? "" : "cursor-pointer"
-      } ${noMargin ? "" : "mt-12"}`}
+      href={hasResume ? urlDownload : '#'}
+      className={`${hideBtn ? 'hidden' : 'relative'} inline-block text-lg group font-space-mono ${
+        hasResume ? '' : 'cursor-pointer'
+      } ${noMargin ? '' : 'mt-12'}`}
       onClick={hasResume ? downloadUrl : onClick}
       aria-label={ariaLabel}
     >
