@@ -237,13 +237,13 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: 'AI Faris Agents',
-    desc: 'Fullstack responsive web app for AI Agents powered by DeepSeek',
-    tags: ['VUE.JS', 'FASTIFY', 'TYPESCRIPT', 'NODE-TS', 'SUPABASE', 'RAILWAY'],
+    title: 'DocuFlow',
+    desc: 'Full-stack AI-powered platform for Google Docs template creation with RAG database integration, built with Next.js, Express.js, and N8N workflow automation.',
+    tags: ['NEXT.JS', 'EXPRESS.JS', 'TYPESCRIPT', 'SUPABASE', 'RAILWAY', 'LANGCHAIN', 'PRISMA'],
     urlGithub: '',
-    urlWebsite: 'https://ai-faris-agents.vercel.app',
+    urlWebsite: 'https://docuflow-experiment.netlify.app/',
     urlImg:
-      'https://res.cloudinary.com/https-farisadlin-com/image/upload/v1742118459/SCR-20250316-otnt_id0np1.png',
+      'https://res.cloudinary.com/https-farisadlin-com/image/upload/v1755548393/SCR-20250819-dsfn_eh7c4y.png',
   },
   {
     id: 3,
@@ -468,13 +468,13 @@ export const ARCHIVES = [
   {
     id: 14,
     category: 'FULL-STACK',
-    title: 'AI Faris Agents',
-    desc: 'Fullstack responsive web app for AI Agents powered by DeepSeek with (Vue.js and Fastify)',
-    tags: ['VUE.JS', 'FASTIFY', 'TYPESCRIPT', 'NODE-TS', 'SUPABASE', 'RAILWAY'],
+    title: 'DocuFlow',
+    desc: 'Full-stack AI-powered platform for Google Docs template creation with RAG database integration (Next.js, Express.js, and N8N)',
+    tags: ['NEXT.JS', 'EXPRESS.JS', 'TYPESCRIPT', 'SUPABASE', 'RAILWAY', 'LANGCHAIN', 'PRISMA'],
     urlGithub: [],
-    urlWebsite: 'https://ai-faris-agents.vercel.app',
+    urlWebsite: 'https://docuflow-experiment.netlify.app/',
     urlImg:
-      'https://res.cloudinary.com/https-farisadlin-com/image/upload/v1742118459/SCR-20250316-otnt_id0np1.png',
+      'https://res.cloudinary.com/https-farisadlin-com/image/upload/v1755548393/SCR-20250819-dsfn_eh7c4y.png',
   },
   {
     id: 15,
